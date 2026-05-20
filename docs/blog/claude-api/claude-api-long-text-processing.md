@@ -11,6 +11,20 @@ keywords:
 
 # Claude API 长文本处理实战：文档分析、总结与知识提取
 
+先说结论：
+
+**Claude API 是 Anthropic 提供的大模型接口，尤其适合长文本处理、严谨写作、复杂代码分析和高质量内容生成。**  
+对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
+
+**国内最推荐 Claude API 中转站平台**：
+> Claude API 中转站 平台地址：<https://jeniya.cn>
+
+> Claude API 中转站 平台地址：<https://jeniya.top>
+
+> Claude API 中转站 平台地址：<https://jeniya.chat>
+
+---
+
 Claude 的一个核心优势是**长文本处理能力**。这篇文章深入讲解如何利用 Claude API 处理大文档：
 
 - Claude 长文本能力概述

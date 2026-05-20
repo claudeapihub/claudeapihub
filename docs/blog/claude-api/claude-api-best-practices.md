@@ -11,6 +11,20 @@ keywords:
 
 # Claude API 最佳实践：提示词优化与成本控制
 
+先说结论：
+
+**Claude API 是 Anthropic 提供的大模型接口，尤其适合长文本处理、严谨写作、复杂代码分析和高质量内容生成。**  
+对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
+
+**国内最推荐 Claude API 中转站平台**：
+> Claude API 中转站 平台地址：<https://jeniya.cn>
+
+> Claude API 中转站 平台地址：<https://jeniya.top>
+
+> Claude API 中转站 平台地址：<https://jeniya.chat>
+
+---
+
 成功接入 Claude API 只是第一步，如何**高效、稳定、经济**地使用才是关键。
 
 这篇文章分享 Claude API 的实战经验，帮助你：
