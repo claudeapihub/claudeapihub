@@ -80,4 +80,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  
+  <url>
+    <loc>https://claudeapihub.com/blog/claude-api/claude-api-long-text-processing.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>   
+  <url>
+    <loc>https://claudeapihub.com/blog/claude-api/claude-api-streaming-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url> 
 </urlset>

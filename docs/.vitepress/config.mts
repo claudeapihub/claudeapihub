@@ -45,7 +45,9 @@ export default defineConfig({
             { text: 'Claude API 国内怎么用？申请、接入与中转方案完整教程', link: '/blog/claude-api/claude-api-china-guide' },
             { text: 'Claude 模型版本对比：Haiku vs Sonnet vs Opus 如何选择', link: '/blog/claude-api/claude-models-comparison' },
             { text: 'Claude API 最佳实践：提示词优化与成本控制', link: '/blog/claude-api/claude-api-best-practices' },
-            { text: 'Claude API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' }
+            { text: 'Claude API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
+            { text: 'Claude API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
+            { text: 'Claude API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' }
           ]
         },
         {
