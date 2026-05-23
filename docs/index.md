@@ -2,6 +2,8 @@
 title: Claude API 中转站导航与使用指南
 description: Claude API 中转站、Claude API 调用教程、Claude 模型价格说明与国内接入指南，专注 Claude API 接入与使用经验分享。
 
+layout: home
+
 hero:
   name: "Claude API"
   text: "中转站导航与使用指南"
