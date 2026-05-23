@@ -98,14 +98,6 @@ features:
   <div class="pricing-unit">即可开始使用全部AI模型</div>
 </div>
 
-<div class="pricing-tabs">
-  <button class="tab-btn active">全部</button>
-  <button class="tab-btn">语言模型</button>
-  <button class="tab-btn">图像生成</button>
-  <button class="tab-btn">语音模型</button>
-  <button class="tab-btn">向量模型</button>
-</div>
-
 </div>
 
 ## 🚀 快速上手
@@ -122,7 +114,7 @@ features:
   <div class="step-title">注册获取Key</div>
   <div class="step-desc">注册账号，在后台创建页面，获取API Key</div>
   <div class="step-link">
-    <a href="#" class="link-btn">立即注册</a>
+    <a href="https://jeniya.cn/" class="link-btn">立即注册</a>
   </div>
 </div>
 
@@ -131,7 +123,7 @@ features:
   <div class="step-title">替换接口地址</div>
   <div class="step-desc">将官方API地址替换为：<br><code>https://jeniya.cn/v1</code></div>
   <div class="step-link">
-    <a href="#" class="link-btn">复制地址</a>
+    <a href="https://jeniya.cn/" class="link-btn">复制地址</a>
   </div>
 </div>
 
@@ -140,7 +132,7 @@ features:
   <div class="step-title">开始调用</div>
   <div class="step-desc">使用现有代码，无需修改其他内容</div>
   <div class="step-link">
-    <a href="#" class="link-btn">查看文档</a>
+    <a href="https://jeniya.cn/" class="link-btn">查看文档</a>
   </div>
 </div>
 
