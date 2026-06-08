@@ -29,6 +29,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'Claude API 中转站', link: 'https://jeniya.cn' },
       { text: 'Claude API 教程', link: '/blog/claude-api/' },
+      { text: '简易 API 中转站使用指南', link: '/blog/jeniya-api/' },
       { text: 'API 中转专题', link: '/blog/api-middleman/' },
       { text: '免责申明', link: '/disclaimer' }
     ],
@@ -48,6 +49,34 @@ export default defineConfig({
             { text: 'Claude API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
             { text: 'Claude API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
             { text: 'Claude API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' }
+          ]
+        },
+        {
+          text: '📋 基础页面',
+          collapsed: false,
+          items: [
+            { text: '支持模型', link: '/models' },
+            { text: '价格说明', link: '/pricing' },
+            { text: '接入文档', link: '/docs' },
+            { text: '常见问题', link: '/faq' }
+          ]
+        }
+      ],
+      '/blog/jeniya-api/': [
+        {
+          text: '🚀 jeniya.cn API 中转服务',
+          collapsed: false,
+          items: [
+            { text: 'jeniya.cn API 完整指南', link: '/blog/jeniya-api/' },
+            { text: '快速开始指南', link: '/blog/jeniya-api/quick-start' },
+            { text: 'Python 接入教程', link: '/blog/jeniya-api/python-guide' },
+            { text: 'Node.js 接入教程', link: '/blog/jeniya-api/nodejs-guide' },
+            { text: '支持模型列表', link: '/blog/jeniya-api/models' },
+            { text: '错误处理指南', link: '/blog/jeniya-api/error-handling' },
+            { text: '流式输出完整指南', link: '/blog/jeniya-api/streaming-guide' },
+            { text: '成本优化指南', link: '/blog/jeniya-api/cost-optimization' },
+            { text: '最佳实践', link: '/blog/jeniya-api/best-practices' },
+            { text: '常见问题 FAQ', link: '/blog/jeniya-api/faq' }
           ]
         },
         {
