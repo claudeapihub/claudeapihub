@@ -48,7 +48,9 @@ export default defineConfig({
             { text: 'Claude API 最佳实践：提示词优化与成本控制', link: '/blog/claude-api/claude-api-best-practices' },
             { text: 'Claude API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
             { text: 'Claude API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
-            { text: 'Claude API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' }
+            { text: 'Claude API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' },
+            { text: 'Claude API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
+            { text: 'Claude API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' }
           ]
         },
         {
@@ -98,7 +100,8 @@ export default defineConfig({
             { text: 'API中转站分类首页', link: '/blog/api-middleman/' },
             { text: 'API中转站是什么？一篇看懂大模型 API 中转的作用与适用场景', link: '/blog/api-middleman/what-is-api-middleman' },
             { text: '大模型 API 中转和官方 API 有什么区别？开发者如何选择', link: '/blog/api-middleman/api-middleman-vs-official-api' },
-            { text: 'API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标', link: '/blog/api-middleman/how-to-choose-api-middleman' }
+            { text: 'API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标', link: '/blog/api-middleman/how-to-choose-api-middleman' },
+            { text: 'API 中转站安全吗？数据隐私、风险防范与安全最佳实践', link: '/blog/api-middleman/api-middleman-security' }
           ]
         },
         {
