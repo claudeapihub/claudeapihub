@@ -56,6 +56,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://claudeapihub.com/blog/api-middleman/api-middleman-security.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://claudeapihub.com/blog/claude-api/claude-api-best-practices.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

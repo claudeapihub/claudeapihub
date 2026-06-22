@@ -30,6 +30,9 @@ description: API 中转站相关知识、选择标准和接入经验，帮助开
 [API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标](/blog/api-middleman/how-to-choose-api-middleman)
 : 系统讲解选择 API 中转站的关键指标和评估方法
 
+[API 中转站安全吗？数据隐私、风险防范与安全最佳实践](/blog/api-middleman/api-middleman-security)
+: 深入分析安全性和数据隐私问题，包括风险类型、评估方法和防范措施
+
 </div>
 
 ---
@@ -124,6 +127,7 @@ API 中转站是介于开发者和官方 API 之间的代理服务：
 - [API中转站是什么？一篇看懂大模型 API 中转的作用与适用场景](/blog/api-middleman/what-is-api-middleman) - 入门必读
 - [大模型 API 中转和官方 API 有什么区别？开发者如何选择](/blog/api-middleman/api-middleman-vs-official-api) - 深度对比
 - [API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标](/blog/api-middleman/how-to-choose-api-middleman) - 选择指南
+- [API 中转站安全吗？数据隐私、风险防范与安全最佳实践](/blog/api-middleman/api-middleman-security) - 安全分析
 
 </div>
 
