@@ -1,5 +1,5 @@
 ---
-title: Claude API 最佳实践：提示词优化与成本控制
+title: 大模型 API 最佳实践：提示词优化与成本控制
 slug: /blog/claude-api/claude-api-best-practices.html
 description: Claude API 最佳实践指南，包括提示词优化技巧、成本控制策略、长文本处理方案、错误处理与重试机制，帮助你更高效地使用 Claude API。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 优化
 ---
 
-# Claude API 最佳实践：提示词优化与成本控制
+# 大模型 API 最佳实践：提示词优化与成本控制
 
 先说结论：
 

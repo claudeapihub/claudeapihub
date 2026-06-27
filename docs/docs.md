@@ -1,13 +1,13 @@
 ---
-title: Claude API 接入文档
-description: Claude API 接入文档，包括接口地址、请求格式、参数说明、代码示例和常见问题，帮助开发者快速完成 Claude API 接入。
+title: 大模型 API 接入文档
+description: 大模型 API 接入文档，包括接口地址、请求格式、参数说明、代码示例和常见问题，帮助开发者快速完成大模型 API 接入。
 ---
 
-# Claude API 接入文档
+# 大模型 API 接入文档
 
-本文档提供 Claude API 的完整接入指南，包括接口地址、请求格式、参数说明和代码示例。
+本文档提供大模型 API 的完整接入指南，包括接口地址、请求格式、参数说明和代码示例。
 
-> 🚀 Claude API 平台地址：<https://jeniya.cn>
+> 🚀 大模型 API 平台地址：<https://jeniya.cn>
 
 ---
 
@@ -406,7 +406,7 @@ except Exception as e:
     print(f"调用失败: {e}")
 ```
 
-详细错误处理请查看 [Claude API 错误处理完整指南](/blog/claude-api/claude-api-error-handling)。
+详细错误处理请查看 [大模型 API 错误处理完整指南](/blog/claude-api/claude-api-error-handling)。
 
 ---
 
@@ -497,7 +497,7 @@ def chat_with_history(client, messages, new_message, max_history=10):
 - [支持模型列表](/models.html) - 了解各模型的能力差异
 - [价格说明](/pricing.html) - 了解计费方式和价格
 - [常见问题 FAQ](/faq.html) - 解答常见疑问
-- [Claude API 教程](/blog/claude-api/) - 深入学习 Claude API
+- [大模型 API 教程](/blog/claude-api/) - 深入学习大模型 API
 
 ---
 
@@ -507,7 +507,7 @@ def chat_with_history(client, messages, new_message, max_history=10):
 
 <div class="action-buttons">
 
-[前往 Claude API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://jeniya.cn){.brand}
 
 [查看常见问题](/faq.html){.alt}
 

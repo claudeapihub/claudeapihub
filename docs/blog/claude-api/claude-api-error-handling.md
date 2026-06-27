@@ -1,5 +1,5 @@
 ---
-title: Claude API 错误处理完整指南
+title: 大模型 API 错误处理完整指南
 slug: /blog/claude-api/claude-api-error-handling.html
 description: Claude API 错误处理完整指南，详细说明常见错误类型、错误代码含义、排查思路和解决方案，帮助开发者快速定位和解决问题。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 429
 ---
 
-# Claude API 错误处理完整指南
+# 大模型 API 错误处理完整指南
 
 先说结论：
 

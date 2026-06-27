@@ -1,5 +1,5 @@
 ---
-title: Claude API 流式输出完整指南：提升用户体验的实时响应方案
+title: 大模型 API 流式输出完整指南：提升用户体验的实时响应方案
 slug: /blog/claude-api/claude-api-streaming-guide.html
 description: 详细讲解 Claude API 流式输出的实现方式，包括 Python SDK 流式调用、SSE 事件处理、错误恢复和性能优化技巧。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API SSE
 ---
 
-# Claude API 流式输出完整指南：提升用户体验的实时响应方案
+# 大模型 API 流式输出完整指南：提升用户体验的实时响应方案
 
 先说结论：
 

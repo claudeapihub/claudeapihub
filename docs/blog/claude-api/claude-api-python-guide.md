@@ -1,5 +1,5 @@
 ---
-title: Claude API 如何调用？Python 接入示例与参数说明
+title: 大模型 API 如何调用？Python 接入示例与参数说明
 slug: /blog/claude-api/claude-api-python-guide.html
 description: Claude API 如何调用？本文提供 Claude API 的 Python 接入示例、核心参数说明、模型选择建议和常见错误处理，帮助开发者快速完成 Claude API 调用。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 参数说明
 ---
 
-# Claude API 如何调用？Python 接入示例与参数说明
+# 大模型 API 如何调用？Python 接入示例与参数说明
 
 如果你正在搜索"**Claude API 如何调用**"，大概率不是想看概念介绍，而是想直接拿到一份能跑通的 Python 示例。
 

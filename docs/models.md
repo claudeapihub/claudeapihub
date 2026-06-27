@@ -1,13 +1,13 @@
 ---
-title: Claude 模型列表
-description: 查看 Claude API 支持的模型列表，包括 Claude Opus、Sonnet、Haiku 等模型的能力说明、适用场景和选择建议。
+title: 大模型列表
+description: 查看大模型 API 支持的模型列表，包括 GPT、Claude、Gemini 等模型的能力说明、适用场景和选择建议。
 ---
 
-# Claude 模型列表
+# 大模型列表
 
-我们提供 Claude 系列 API 中转服务，支持 Claude Opus、Sonnet、Haiku 等多个版本，兼容 OpenAI 格式，方便开发者使用统一方式完成接入、调用与切换。
+我们提供多系列大模型 API 中转服务，支持 GPT、Claude、Gemini 等多个版本，兼容 OpenAI 格式，方便开发者使用统一方式完成接入、调用与切换。
 
-> 🚀 Claude API 平台地址：<https://jeniya.cn>
+> 🚀 大模型 API 平台地址：<https://jeniya.cn>
 
 ## 接口兼容性
 
@@ -259,17 +259,17 @@ response = client.chat.completions.create(
 - [价格说明](/pricing.html) - 了解各模型的详细价格
 - [API 接入文档](/docs.html) - 查看完整的接入指南
 - [常见问题 FAQ](/faq.html) - 解答常见疑问
-- [Claude API 教程](/blog/claude-api/) - 深入学习 Claude API
+- [大模型 API 教程](/blog/claude-api/) - 深入学习大模型 API
 
 ---
 
 ## 开始使用
 
-如果你已经准备好接入 Claude API，可以直接前往平台查看：
+如果你已经准备好接入大模型 API，可以直接前往平台查看：
 
 <div class="action-buttons">
 
-[前往 Claude API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://jeniya.cn){.brand}
 
 [查看接入文档](/docs.html){.alt}
 

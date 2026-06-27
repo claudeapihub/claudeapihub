@@ -1,5 +1,5 @@
 ---
-title: Claude API 国内怎么用？申请、接入与中转方案完整教程
+title: 大模型 API 国内怎么用？申请、接入与中转方案完整教程
 slug: /blog/claude-api/claude-api-china-guide.html
 description: Claude API 国内怎么用？本文详细介绍 Claude API 是什么、适合哪些应用、国内开发者常见接入问题、Python 调用示例、模型选择建议以及中转接入方案，帮助你快速完成 Claude API 集成。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 中转
 ---
 
-# Claude API 国内怎么用？申请、接入与中转方案完整教程
+# 大模型 API 国内怎么用？申请、接入与中转方案完整教程
 
 很多开发者在搜索"**Claude API 国内怎么用**"时，真正想解决的问题通常很具体：
 

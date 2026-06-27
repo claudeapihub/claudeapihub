@@ -1,17 +1,17 @@
 /**
  * Claude API 中转站 - 自定义样式
- * 专业的配色方案和布局优化
+ * 专业的配色方案和布局优化 - 绿色主题
  */
 
 /* ========================================
-   CSS 变量定义 - Claude 品牌色系
+   CSS 变量定义 - 绿色品牌色系
    ======================================== */
 
 :root {
-  /* Claude 品牌色 - 橙棕色调 */
-  --claude-primary: #cf6e49;
-  --claude-primary-light: #d4a574;
-  --claude-primary-dark: #b85c3a;
+  /* 绿色品牌色 */
+  --claude-primary: #10b981;
+  --claude-primary-light: #34d399;
+  --claude-primary-dark: #059669;
   
   /* 功能色 */
   --claude-success: #10b981;
@@ -20,34 +20,46 @@
   --claude-error: #ef4444;
   
   /* 背景色 */
-  --claude-bg-soft: #faf8f6;
-  --claude-bg-muted: #f5f0eb;
+  --claude-bg-soft: #f0fdf4;
+  --claude-bg-muted: #ecfdf5;
   
   /* 文字色 */
-  --claude-text-1: #1a1815;
-  --claude-text-2: #5c534a;
-  --claude-text-3: #8a7f74;
+  --claude-text-1: #1a1a1a;
+  --claude-text-2: #4b5563;
+  --claude-text-3: #6b7280;
   
   /* 边框色 */
-  --claude-border: #e8e2dc;
-  --claude-divider: #d4ccc3;
+  --claude-border: #d1fae5;
+  --claude-divider: #a7f3d0;
+  
+  /* VitePress 默认主题色覆盖 */
+  --vp-c-brand-1: #10b981;
+  --vp-c-brand-2: #34d399;
+  --vp-c-brand-3: #059669;
+  --vp-c-brand-soft: rgba(16, 185, 129, 0.14);
 }
 
 /* 深色模式变量 */
 .dark {
-  --claude-primary: #e88a5f;
-  --claude-primary-light: #cf6e49;
-  --claude-primary-dark: #d4a574;
+  --claude-primary: #34d399;
+  --claude-primary-light: #6ee7b7;
+  --claude-primary-dark: #10b981;
   
-  --claude-bg-soft: #1e1c1a;
-  --claude-bg-muted: #252220;
+  --claude-bg-soft: #1a2e1a;
+  --claude-bg-muted: #0d1f0d;
   
-  --claude-text-1: #f5f0eb;
-  --claude-text-2: #b8b0a6;
-  --claude-text-3: #8a7f74;
+  --claude-text-1: #f0fdf4;
+  --claude-text-2: #a7f3d0;
+  --claude-text-3: #6ee7b7;
   
-  --claude-border: #3a352f;
-  --claude-divider: #4a433b;
+  --claude-border: #2d4a2d;
+  --claude-divider: #3d5a3d;
+  
+  /* VitePress 深色模式主题色 */
+  --vp-c-brand-1: #34d399;
+  --vp-c-brand-2: #6ee7b7;
+  --vp-c-brand-3: #10b981;
+  --vp-c-brand-soft: rgba(52, 211, 153, 0.14);
 }
 
 /* ========================================
@@ -102,12 +114,12 @@ body {
   border: none;
   font-weight: 500;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 14px rgba(207, 110, 73, 0.25);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.25);
 }
 
 .VPButton.brand:hover {
   background: linear-gradient(135deg, var(--claude-primary-dark) 0%, var(--claude-primary) 100%);
-  box-shadow: 0 6px 20px rgba(207, 110, 73, 0.35);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
   transform: translateY(-2px);
 }
 
@@ -140,7 +152,7 @@ body {
 
 .VPFeature:hover {
   transform: translateY(-6px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 16px 32px rgba(16, 185, 129, 0.12);
   border-color: var(--claude-primary-light);
 }
 
@@ -284,7 +296,7 @@ body {
 
 .custom-block.tip {
   border-color: var(--claude-primary);
-  background: rgba(207, 110, 73, 0.08);
+  background: rgba(16, 185, 129, 0.08);
 }
 
 .custom-block.tip .custom-block-title {
@@ -433,7 +445,7 @@ body {
 }
 
 .vp-badge.tip {
-  background: rgba(207, 110, 73, 0.15);
+  background: rgba(16, 185, 129, 0.15);
   color: var(--claude-primary);
 }
 
@@ -455,14 +467,33 @@ body {
 
 .card:hover {
   border-color: var(--claude-primary-light);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.1);
 }
 
 /* 高亮块 */
 .highlight-block {
-  background: linear-gradient(135deg, rgba(207, 110, 73, 0.05) 0%, rgba(212, 165, 116, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(52, 211, 153, 0.05) 100%);
   border-left: 4px solid var(--claude-primary);
   border-radius: 0 12px 12px 0;
   padding: 16px 20px;
   margin: 20px 0;
+}
+
+/* ========================================
+   Logo 样式优化
+   ======================================== */
+
+.VPNavBar .logo {
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.VPNavBar .logo:hover {
+  transform: scale(1.05);
+}
+
+/* SVG Logo 适配 */
+.VPNavBar .logo img {
+  height: 100%;
+  width: auto;
 }

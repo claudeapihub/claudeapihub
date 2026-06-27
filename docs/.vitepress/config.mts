@@ -2,33 +2,32 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Claude API 中转站导航与使用指南',
-  description: 'Claude API 中转站、Claude API 调用教程、Claude 模型价格说明与国内接入指南，专注 Claude API 接入与使用经验分享。',
+  title: '大模型 API 中转站导航与使用指南',
+  description: '大模型 API 中转站、API 调用教程、模型价格说明与国内接入指南，专注大模型 API 接入与使用经验分享。',
   lastUpdated: true,
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/claude-logo.svg' }],
     ['link', { rel: 'icon', type: 'image/jpeg', href: '/favicon.jpg' }],
-    ['meta', { name: 'keywords', content: 'Claude API中转, Claude API中转站, Claude API调用, Claude API国内, Claude API教程, Claude模型价格, Claude API Python, Claude API Key, Claude Sonnet, Claude Opus, Claude Haiku, Claude API 接入' }],
-    ['meta', { name: 'author', content: 'Claude API 中转站' }],
-    ['meta', { name: 'theme-color', content: '#cf6e49' }],
+    ['meta', { name: 'keywords', content: '大模型API中转, API中转站, 大模型API调用, API国内接入, API教程, 模型价格, Claude, GPT, Gemini, API 接入' }],
+    ['meta', { name: 'author', content: '大模型 API 中转站' }],
+    ['meta', { name: 'theme-color', content: '#10b981' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Claude API 中转站导航与使用指南' }],
-    ['meta', { property: 'og:description', content: 'Claude API 中转站、Claude API 调用教程、Claude 模型价格说明与国内接入指南' }],
+    ['meta', { property: 'og:title', content: '大模型 API 中转站导航与使用指南' }],
+    ['meta', { property: 'og:description', content: '大模型 API 中转站、API 调用教程、模型价格说明与国内接入指南' }],
     ['meta', { property: 'og:image', content: '/claude-logo.svg' }]
   ],
   
   themeConfig: {
     // Logo 配置
     logo: '/claude-logo.svg',
-    siteTitle: 'Claude API 中转站',
+    siteTitle: '大模型 API 中转站',
     
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Claude API 中转站', link: 'https://jeniya.cn' },
-      { text: 'Claude API 教程', link: '/blog/claude-api/' },
+      { text: '大模型 API 中转站', link: 'https://jeniya.cn' },
+      { text: '大模型 API 教程', link: '/blog/claude-api/' },
       { text: '简易 API 中转站使用指南', link: '/blog/jeniya-api/' },
       { text: 'API 中转专题', link: '/blog/api-middleman/' },
       { text: '免责申明', link: '/disclaimer' }
@@ -38,19 +37,19 @@ export default defineConfig({
     sidebar: {
       '/blog/claude-api/': [
         {
-          text: '📚 Claude API 教程',
+          text: '📚 大模型 API 教程',
           collapsed: false,
           items: [
-            { text: 'Claude API 分类首页', link: '/blog/claude-api/' },
-            { text: 'Claude API 如何调用？Python 接入示例与参数说明', link: '/blog/claude-api/claude-api-python-guide' },
-            { text: 'Claude API 国内怎么用？申请、接入与中转方案完整教程', link: '/blog/claude-api/claude-api-china-guide' },
+            { text: '大模型 API 分类首页', link: '/blog/claude-api/' },
+            { text: '大模型 API 如何调用？Python 接入示例与参数说明', link: '/blog/claude-api/claude-api-python-guide' },
+            { text: '大模型 API 国内怎么用？申请、接入与中转方案完整教程', link: '/blog/claude-api/claude-api-china-guide' },
             { text: 'Claude 模型版本对比：Haiku vs Sonnet vs Opus 如何选择', link: '/blog/claude-api/claude-models-comparison' },
-            { text: 'Claude API 最佳实践：提示词优化与成本控制', link: '/blog/claude-api/claude-api-best-practices' },
-            { text: 'Claude API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
-            { text: 'Claude API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
-            { text: 'Claude API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' },
-            { text: 'Claude API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
-            { text: 'Claude API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' }
+            { text: '大模型 API 最佳实践：提示词优化与成本控制', link: '/blog/claude-api/claude-api-best-practices' },
+            { text: '大模型 API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
+            { text: '大模型 API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
+            { text: '大模型 API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' },
+            { text: '大模型 API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
+            { text: '大模型 API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' }
           ]
         },
         {
@@ -145,8 +144,8 @@ export default defineConfig({
 
     // 页脚配置
     footer: {
-      message: '提供 Claude API 中转站、Claude API 调用教程、模型价格说明与国内接入指南。',
-      copyright: '© 2026 Claude API 中转站导航与使用指南 ｜ <a href="/models">支持模型</a> ｜ <a href="/pricing">价格说明</a> ｜ <a href="/docs">接入文档</a> ｜ <a href="/faq">常见问题</a>'
+      message: '提供大模型 API 中转站、API 调用教程、模型价格说明与国内接入指南。',
+      copyright: '© 2026 大模型 API 中转站导航与使用指南 ｜ <a href="/models">支持模型</a> ｜ <a href="/pricing">价格说明</a> ｜ <a href="/docs">接入文档</a> ｜ <a href="/faq">常见问题</a>'
     },
 
     // 编辑链接

@@ -1,22 +1,22 @@
 ---
-title: Claude API 中转站导航与使用指南
-description: Claude API 中转站、Claude API 调用教程、Claude 模型价格说明与国内接入指南，专注 Claude API 接入与使用经验分享。
+title: 大模型 API 中转站导航与使用指南
+description: 大模型 API 中转站、API 调用教程、模型价格说明与国内接入指南，专注大模型 API 接入与使用经验分享。
 
 layout: home
 
 hero:
-  name: "Claude API"
+  name: "大模型 API"
   text: "中转站导航与使用指南"
-  tagline: "专注 Claude API 接入教程 · 模型价格说明 · 国内开发指南"
+  tagline: "专注大模型 API 接入教程 · 模型价格说明 · 国内开发指南"
   image:
     src: /claude-logo.svg
-    alt: Claude API
+    alt: 大模型 API
   actions:
     - theme: brand
-      text: 🚀 立即访问 Claude API 中转站
+      text: 🚀 立即访问大模型 API 中转站
       link: https://jeniya.cn
     - theme: alt
-      text: 📖 开始阅读 Claude API 教程
+      text: 📖 开始阅读 API 教程
       link: /blog/claude-api/
 
 features:
@@ -28,7 +28,7 @@ features:
     details: 低至0.7=1美元/百万token，比官方便宜70%以上。
   - icon: 🌐
     title: 国内接入指南
-    details: 针对国内开发者提供完整的 Claude API 接入方案，解决访问、鉴权、稳定性等问题。
+    details: 针对国内开发者提供完整的大模型 API 接入方案，解决访问、鉴权、稳定性等问题。
   - icon: ⚡
     title: 安全合规
     details: 数据不落地，隐私有保障，企业级安全保障。
@@ -36,8 +36,8 @@ features:
     title: 最佳实践
     details: 分享提示词优化、成本控制、长文本处理、错误重试等实战经验，提升开发效率。
   - icon: 🔄
-    title: Claude API 中转站
-    details: 提供 Claude API 中转服务，稳定高效，兼容 OpenAI 格式，一行代码即可切换接入。
+    title: 大模型 API 中转站
+    details: 提供大模型 API 中转服务，支持 GPT、Claude、Gemini 等主流模型，稳定高效，兼容 OpenAI 格式。
 ---
 
 ## 🤖 支持的AI大模型API
@@ -517,19 +517,19 @@ onMounted(() => {
 }
 </style>
 
-## 🎯 Claude API 中转站导航与使用指南
+## 🎯 大模型 API 中转站导航与使用指南
 
-本站专注分享 Claude API 相关内容，帮助开发者快速完成 Claude API 接入与使用。
+本站专注分享大模型 API 相关内容，帮助开发者快速完成 API 接入与使用。
 
 ### 📋 核心内容
 
 | 主题 | 说明 |
 |------|------|
-| Claude API 中转站 | 稳定、高效、兼容 OpenAI 格式的 Claude API 接入方案 |
-| Claude API 调用教程 | Python 接入示例、参数详解、流式输出、错误处理 |
-| Claude 模型价格说明 | Haiku / Sonnet / Opus 模型价格对比与选择建议 |
-| Claude API 国内使用 | 针对 国内开发者的完整接入与使用指南 |
-| Claude API 最佳实践 | 提示词优化、成本控制、长文本处理技巧 |
+| 大模型 API 中转站 | 稳定、高效、兼容 OpenAI 格式的大模型 API 接入方案 |
+| 大模型 API 调用教程 | Python 接入示例、参数详解、流式输出、错误处理 |
+| 模型价格说明 | GPT / Claude / Gemini 模型价格对比与选择建议 |
+| 大模型 API 国内使用 | 针对国内开发者的完整接入与使用指南 |
+| 大模型 API 最佳实践 | 提示词优化、成本控制、长文本处理技巧 |
 
 ---
 
@@ -539,9 +539,9 @@ onMounted(() => {
 
 | 入口 | 说明 |
 |------|------|
-| [Claude API 教程](/blog/claude-api/) | 从入门到精通的完整教程 |
-| [支持模型列表](/models.html) | Claude Opus / Sonnet / Haiku 模型说明 |
-| [价格说明](/pricing.html) | Claude API 计费方式与价格参考 |
+| [API 教程](/blog/claude-api/) | 从入门到精通的完整教程 |
+| [支持模型列表](/models.html) | GPT / Claude / Gemini 模型说明 |
+| [价格说明](/pricing.html) | 大模型 API 计费方式与价格参考 |
 | [API 接入文档](/docs.html) | 接口地址、参数说明、代码示例 |
 | [常见问题 FAQ](/faq.html) | 接入与使用中的常见问题解答 |
 
@@ -553,11 +553,11 @@ onMounted(() => {
 
 <div class="topic-nav">
 
-### [Claude API 教程](/blog/claude-api/)
+### [大模型 API 教程](/blog/claude-api/)
 
-完整的 Claude API 学习路径：
-- **入门教程**：Claude API 基础概念与快速开始
-- **模型选择**：Haiku / Sonnet / Opus 对比与选择建议
+完整的大模型 API 学习路径：
+- **入门教程**：大模型 API 基础概念与快速开始
+- **模型选择**：GPT / Claude / Gemini 对比与选择建议
 - **最佳实践**：提示词优化、成本控制、错误处理
 - **实战案例**：长文本处理、文档总结、代码分析
 
@@ -577,18 +577,18 @@ onMounted(() => {
 
 | 用户类型 | 适用场景 |
 |----------|----------|
-| Claude API 开发者 | 需要将 Claude 集成到应用或服务中 |
-| AI 应用开发者 | 构建基于 Claude 的 AI 产品 |
+| 大模型 API 开发者 | 需要将大模型集成到应用或服务中 |
+| AI 应用开发者 | 构建基于大模型的 AI 产品 |
 | 独立站长 | 运营需要 AI 能力的网站或工具 |
-| 自动化办公用户 | 使用 Claude 进行文档处理、内容生成 |
-| 企业模型接入团队 | 在企业环境中部署 Claude API |
+| 自动化办公用户 | 使用大模型进行文档处理、内容生成 |
+| 企业模型接入团队 | 在企业环境中部署大模型 API |
 | 长文本处理开发者 | 需要处理长文档、代码分析等任务 |
 
 ---
 
-## 💡 为什么选择 Claude API
+## 💡 为什么选择大模型 API
 
-Claude API 在以下场景表现出色：
+大模型 API 在以下场景表现出色：
 
 ### 📄 长文本处理
 - 支持 200K+ 超长上下文
@@ -617,7 +617,7 @@ Claude API 在以下场景表现出色：
 ```python
 from openai import OpenAI
 
-# 使用 OpenAI SDK 接入 Claude API
+# 使用 OpenAI SDK 接入大模型 API
 client = OpenAI(
     api_key="YOUR_API_KEY",
     base_url="https://jeniya.cn/v1"
@@ -639,7 +639,7 @@ print(response.choices[0].message.content)
 
 ## ⚠️ 免责声明
 
-本站仅提供 Claude API 中转站、Claude API 调用教程、模型价格及相关信息整理与经验分享，不代表任何平台官方立场。
+本站仅提供大模型 API 中转站、API 调用教程、模型价格及相关信息整理与经验分享，不代表任何平台官方立场。
 
 ---
 

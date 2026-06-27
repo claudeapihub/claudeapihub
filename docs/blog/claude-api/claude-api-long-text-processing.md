@@ -1,5 +1,5 @@
 ---
-title: Claude API 长文本处理实战：文档分析、总结与知识提取
+title: 大模型 API 长文本处理实战：文档分析、总结与知识提取
 slug: /blog/claude-api/claude-api-long-text-processing.html
 description: 深入讲解 Claude API 长文本处理能力，包括大文档处理、文本总结、信息提取、分块策略和成本优化技巧。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 上下文长度
 ---
 
-# Claude API 长文本处理实战：文档分析、总结与知识提取
+# 大模型 API 长文本处理实战：文档分析、总结与知识提取
 
 先说结论：
 

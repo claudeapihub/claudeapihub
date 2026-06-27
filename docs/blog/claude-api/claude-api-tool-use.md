@@ -1,5 +1,5 @@
 ---
-title: Claude API 工具使用实战：函数调用与外部工具集成
+title: 大模型 API 工具使用实战：函数调用与外部工具集成
 slug: /blog/claude-api/claude-api-tool-use.html
 description: 详细讲解 Claude API 工具使用功能，包括函数调用、工具定义、多工具协作、实际应用场景和最佳实践，帮助开发者构建更强大的 AI 应用。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API Function Calling
 ---
 
-# Claude API 工具使用实战：函数调用与外部工具集成
+# 大模型 API 工具使用实战：函数调用与外部工具集成
 
 先说结论：
 

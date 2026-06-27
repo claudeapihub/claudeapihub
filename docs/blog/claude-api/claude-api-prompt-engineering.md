@@ -1,5 +1,5 @@
 ---
-title: Claude API 提示词工程实战：从入门到精通的优化技巧
+title: 大模型 API 提示词工程实战：从入门到精通的优化技巧
 slug: /blog/claude-api/claude-api-prompt-engineering.html
 description: 详细讲解 Claude API 提示词工程的核心技巧，包括角色设定、上下文构建、输出格式控制、多轮对话设计等实用方法，帮助开发者充分发挥 Claude 模型能力。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 技术写作
 ---
 
-# Claude API 提示词工程实战：从入门到精通的优化技巧
+# 大模型 API 提示词工程实战：从入门到精通的优化技巧
 
 先说结论：
 

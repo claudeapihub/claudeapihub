@@ -1,20 +1,20 @@
 ---
-title: Claude API 价格说明
-description: 查看 Claude API 价格说明，包括 Claude Opus、Sonnet、Haiku 等模型的定价、计费方式和成本优化建议。
+title: 大模型 API 价格说明
+description: 查看大模型 API 价格说明，包括 GPT、Claude、Gemini 等模型的定价、计费方式和成本优化建议。
 ---
 
-# Claude API 价格说明
+# 大模型 API 价格说明
 
-本平台提供多种 Claude 模型 API 接入，采用按 Token 计费方式，不同模型价格不同。
+本平台提供多种大模型 API 接入，采用按 Token 计费方式，不同模型价格不同。
 
-> 🚀 Claude API 平台地址：<https://jeniya.cn>  
-> 💰 Claude API 详细价格：<https://jeniya.cn/pricing>
+> 🚀 大模型 API 平台地址：<https://jeniya.cn>  
+> 💰 API 详细价格：<https://jeniya.cn/pricing>
 
 ---
 
 ## 计费原则
 
-Claude API 采用 **按 Token 计费** 的方式：
+大模型 API 采用 **按 Token 计费** 的方式：
 
 | Token 类型 | 说明 |
 |-----------|------|
@@ -317,7 +317,7 @@ tracker.track(response.usage)
 - [支持模型列表](/models.html) - 了解各模型的能力差异
 - [API 接入文档](/docs.html) - 查看完整的接入指南
 - [常见问题 FAQ](/faq.html) - 解答常见疑问
-- [Claude API 教程](/blog/claude-api/) - 深入学习 Claude API
+- [大模型 API 教程](/blog/claude-api/) - 深入学习大模型 API
 
 ---
 
@@ -327,7 +327,7 @@ tracker.track(response.usage)
 
 <div class="action-buttons">
 
-[前往 Claude API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://jeniya.cn){.brand}
 
 [查看模型列表](/models.html){.alt}
 
