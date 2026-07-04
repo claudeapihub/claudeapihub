@@ -54,6 +54,9 @@ description: 大模型 API 完整教程，包括接口使用方式、接入流�
 [大模型 API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use)
 : 详细讲解工具使用功能，包括函数调用、多工具协作、实际应用场景
 
+[大模型 API 视觉能力实战：图像理解与分析完整指南](/blog/claude-api/claude-api-vision-guide)
+: 详细讲解图像输入方式、OCR识别、图表分析、多图处理等视觉能力
+
 </div>
 
 ---
@@ -208,6 +211,7 @@ def summarize_long_text(text: str):
 - [大模型 API 长文本处理实战：文档分析、总结与知识提取](/blog/claude-api/claude-api-long-text-processing) - 发挥长文本优势
 - [大模型 API 提示词工程实战：从入门到精通的优化技巧](/blog/claude-api/claude-api-prompt-engineering) - 提示词优化技巧
 - [大模型 API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use) - 工具使用与函数调用
+- [大模型 API 视觉能力实战：图像理解与分析完整指南](/blog/claude-api/claude-api-vision-guide) - 图像识别与分析
 
 </div>
 

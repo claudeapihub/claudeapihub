@@ -49,7 +49,8 @@ export default defineConfig({
             { text: '大模型 API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
             { text: '大模型 API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' },
             { text: '大模型 API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
-            { text: '大模型 API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' }
+            { text: '大模型 API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' },
+            { text: '大模型 API 视觉能力实战：图像理解与分析完整指南', link: '/blog/claude-api/claude-api-vision-guide' }
           ]
         },
         {
