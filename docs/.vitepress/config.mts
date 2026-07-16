@@ -101,7 +101,8 @@ export default defineConfig({
             { text: 'API中转站是什么？一篇看懂大模型 API 中转的作用与适用场景', link: '/blog/api-middleman/what-is-api-middleman' },
             { text: '大模型 API 中转和官方 API 有什么区别？开发者如何选择', link: '/blog/api-middleman/api-middleman-vs-official-api' },
             { text: 'API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标', link: '/blog/api-middleman/how-to-choose-api-middleman' },
-            { text: 'API 中转站安全吗？数据隐私、风险防范与安全最佳实践', link: '/blog/api-middleman/api-middleman-security' }
+            { text: 'API 中转站安全吗？数据隐私、风险防范与安全最佳实践', link: '/blog/api-middleman/api-middleman-security' },
+            { text: 'API 中转站常见问题与解决方案：从报错到修复的完整指南', link: '/blog/api-middleman/api-middleman-troubleshooting' }
           ]
         },
         {

@@ -35,6 +35,15 @@ description: API 中转站相关知识、选择标准和接入经验，帮助开
 
 </div>
 
+### 故障排查
+
+<div class="article-cards">
+
+[API 中转站常见问题与解决方案：从报错到修复的完整指南](/blog/api-middleman/api-middleman-troubleshooting)
+: 整理连接失败、鉴权错误、限流、超时等常见问题的排查步骤和解决方案
+
+</div>
+
 ---
 
 ## 🎯 内容分类
@@ -128,6 +137,7 @@ API 中转站是介于开发者和官方 API 之间的代理服务：
 - [大模型 API 中转和官方 API 有什么区别？开发者如何选择](/blog/api-middleman/api-middleman-vs-official-api) - 深度对比
 - [API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标](/blog/api-middleman/how-to-choose-api-middleman) - 选择指南
 - [API 中转站安全吗？数据隐私、风险防范与安全最佳实践](/blog/api-middleman/api-middleman-security) - 安全分析
+- [API 中转站常见问题与解决方案：从报错到修复的完整指南](/blog/api-middleman/api-middleman-troubleshooting) - 故障排查
 
 </div>
 

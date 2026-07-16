@@ -1081,5 +1081,6 @@ def batch_analyze_images(
 - [Claude API 如何调用？Python 接入示例与参数说明](/blog/claude-api/claude-api-python-guide)
 - [Claude API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use)
 - [Claude API 最佳实践：提示词优化与成本控制](/blog/claude-api/claude-api-best-practices)
+- [API 中转站常见问题与解决方案：从报错到修复的完整指南](/blog/api-middleman/api-middleman-troubleshooting)
 
 ---
