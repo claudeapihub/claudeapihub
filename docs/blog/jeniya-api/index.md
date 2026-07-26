@@ -7,6 +7,43 @@ description: jeniya.cn 是专业的 AI API 中转服务平台，本指南将帮�
 
 jeniya.cn 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
 
+---
+
+## 📚 最新文章（前 5 条）
+
+<div class="latest-articles">
+
+<div class="article-card featured">
+<a href="/blog/jeniya-api/quick-start" class="article-title">快速开始指南：3步完成接入，30秒开始使用</a>
+<span class="article-badge">🔥 NEW</span>
+<p class="article-desc">从注册、充值到测试调用，手把手教你快速上手 jeniya.cn</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/jeniya-api/python-guide" class="article-title">Python 接入教程：完整示例与流式输出</a>
+<span class="article-badge">NEW</span>
+<p class="article-desc">使用 Python SDK 完整接入 jeniya.cn，包含流式输出和错误处理</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/jeniya-api/nodejs-guide" class="article-title">Node.js 接入教程：实战代码与最佳实践</a>
+<p class="article-desc">使用 Node.js SDK 完整接入 jeniya.cn，包含常见集成场景</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/jeniya-api/models" class="article-title">支持模型列表：Claude / GPT / Gemini 全覆盖</a>
+<p class="article-desc">详细说明 jeniya.cn 支持的所有模型，包括模型 ID 和接入方式</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/jeniya-api/error-handling" class="article-title">错误处理指南：4xx/5xx 错误处理与重试策略</a>
+<p class="article-desc">常见错误码说明与处理方法，构建健壮的应用</p>
+</div>
+
+</div>
+
+---
+
 ## 📋 目录
 
 - [什么是 jeniya.cn](#什么是-jeniyacn)
@@ -420,7 +457,7 @@ const client = new Anthropic({
   baseURL: 'https://api.jeniya.cn/v1'
 });
 
-// 流式输出
+# 流式输出
 const stream = await client.messages.stream({
   model: 'claude-sonnet-4.5',
   max_tokens: 1024,
@@ -445,7 +482,7 @@ const model = genAI.getGenerativeModel({
   baseUrl: "https://api.jeniya.cn/google"
 });
 
-// 流式输出
+# 流式输出
 const result = await model.generateContentStream('写一个快速排序');
 for await (const chunk of result.stream) {
   process.stdout.write(chunk.text());
@@ -671,3 +708,87 @@ def call_with_logging(prompt):
 
 **感谢使用 jeniya.cn！**  
 如有任何问题，欢迎随时联系我们。祝您使用愉快！
+
+---
+
+<style>
+/* 最新文章样式 */
+.latest-articles {
+  background: #f0fdf4;
+  border: 2px solid #10b981;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 32px 0;
+}
+
+.article-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  border-left: 4px solid transparent;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.15);
+}
+
+.article-card.featured {
+  border-left-color: #10b981;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+}
+
+.article-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.article-title:hover {
+  color: #10b981;
+}
+
+.article-badge {
+  display: inline-block;
+  background: #10b981;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.article-desc {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 8px 0 0 0;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .latest-articles {
+    padding: 16px;
+  }
+  
+  .article-title {
+    font-size: 1rem;
+  }
+  
+  .article-badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    top: 12px;
+    right: 12px;
+  }
+}
+</style>

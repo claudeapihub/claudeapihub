@@ -9,38 +9,36 @@ description: API 中转站相关知识、选择标准和接入经验，帮助开
 
 ---
 
-## 📚 专题文章
+## 📚 最新文章（前 5 条）
 
-### 基础概念
+<div class="latest-articles">
 
-<div class="article-cards">
-
-[API中转站是什么？一篇看懂大模型 API 中转的作用与适用场景](/blog/api-middleman/what-is-api-middleman)
-: 从零开始了解 API 中转站的概念、作用和价值
-
-[大模型 API 中转和官方 API 有什么区别？开发者如何选择](/blog/api-middleman/api-middleman-vs-official-api)
-: 对比分析中转 API 和官方 API 的差异，帮你做出选择
-
+<div class="article-card featured">
+<a href="/blog/api-middleman/what-is-api-middleman" class="article-title">API中转站是什么？一篇看懂大模型 API 中转的作用与适用场景</a>
+<span class="article-badge">🔥 NEW</span>
+<p class="article-desc">从零开始了解 API 中转站的概念、作用和价值</p>
 </div>
 
-### 选择指南
-
-<div class="article-cards">
-
-[API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标](/blog/api-middleman/how-to-choose-api-middleman)
-: 系统讲解选择 API 中转站的关键指标和评估方法
-
-[API 中转站安全吗？数据隐私、风险防范与安全最佳实践](/blog/api-middleman/api-middleman-security)
-: 深入分析安全性和数据隐私问题，包括风险类型、评估方法和防范措施
-
+<div class="article-card">
+<a href="/blog/api-middleman/api-middleman-vs-official-api" class="article-title">大模型 API 中转和官方 API 有什么区别？开发者如何选择</a>
+<span class="article-badge">NEW</span>
+<p class="article-desc">对比分析中转 API 和官方 API 的差异，帮你做出选择</p>
 </div>
 
-### 故障排查
+<div class="article-card">
+<a href="/blog/api-middleman/how-to-choose-api-middleman" class="article-title">API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标</a>
+<p class="article-desc">系统讲解选择 API 中转站的关键指标和评估方法</p>
+</div>
 
-<div class="article-cards">
+<div class="article-card">
+<a href="/blog/api-middleman/api-middleman-security" class="article-title">API 中转站安全吗？数据隐私、风险防范与安全最佳实践</a>
+<p class="article-desc">深入分析安全性和数据隐私问题，包括风险类型、评估方法和防范措施</p>
+</div>
 
-[API 中转站常见问题与解决方案：从报错到修复的完整指南](/blog/api-middleman/api-middleman-troubleshooting)
-: 整理连接失败、鉴权错误、限流、超时等常见问题的排查步骤和解决方案
+<div class="article-card">
+<a href="/blog/api-middleman/api-middleman-troubleshooting" class="article-title">API 中转站常见问题与解决方案：从报错到修复的完整指南</a>
+<p class="article-desc">整理连接失败、鉴权错误、限流、超时等常见问题的排查步骤和解决方案</p>
+</div>
 
 </div>
 
@@ -50,27 +48,75 @@ description: API 中转站相关知识、选择标准和接入经验，帮助开
 
 ### 基础概念
 
-| 主题 | 说明 |
-|------|------|
-| 什么是 API 中转站 | 概念解释与工作原理 |
-| API 中转的作用和价值 | 为什么需要 API 中转 |
-| 适用场景分析 | 哪些场景适合使用中转服务 |
+<div class="topic-grid">
+
+<div class="topic-item">
+<div class="topic-icon">📖</div>
+<h3>什么是 API 中转站</h3>
+<p>概念解释与工作原理</p>
+</div>
+
+<div class="topic-item">
+<div class="topic-icon">✨</div>
+<h3>API 中转的作用和价值</h3>
+<p>为什么需要 API 中转</p>
+</div>
+
+<div class="topic-item">
+<div class="topic-icon">🎯</div>
+<h3>适用场景分析</h3>
+<p>哪些场景适合使用中转服务</p>
+</div>
+
+</div>
 
 ### 选择指南
 
-| 主题 | 说明 |
-|------|------|
-| 如何选择 API 中转站 | 选择标准与评估方法 |
-| 关键指标分析 | 稳定性、价格、并发、兼容性等 |
-| 对比与评测 | 不同中转站的对比分析 |
+<div class="topic-grid">
+
+<div class="topic-item">
+<div class="topic-icon">📋</div>
+<h3>如何选择 API 中转站</h3>
+<p>选择标准与评估方法</p>
+</div>
+
+<div class="topic-item">
+<div class="topic-icon">📊</div>
+<h3>关键指标分析</h3>
+<p>稳定性、价格、并发、兼容性等</p>
+</div>
+
+<div class="topic-item">
+<div class="topic-icon">⚡</div>
+<h3>对比与评测</h3>
+<p>不同中转站的对比分析</p>
+</div>
+
+</div>
 
 ### 实践经验
 
-| 主题 | 说明 |
-|------|------|
-| 接入经验分享 | 实际接入过程中的经验总结 |
-| 常见问题解决 | 中转服务使用中的常见问题 |
-| 最佳实践 | 提升稳定性和效率的方法 |
+<div class="topic-grid">
+
+<div class="topic-item">
+<div class="topic-icon">💡</div>
+<h3>接入经验分享</h3>
+<p>实际接入过程中的经验总结</p>
+</div>
+
+<div class="topic-item">
+<div class="topic-icon">🔧</div>
+<h3>常见问题解决</h3>
+<p>中转服务使用中的常见问题</p>
+</div>
+
+<div class="topic-item">
+<div class="topic-icon">🚀</div>
+<h3>最佳实践</h3>
+<p>提升稳定性和效率的方法</p>
+</div>
+
+</div>
 
 ---
 
@@ -129,58 +175,129 @@ API 中转站是介于开发者和官方 API 之间的代理服务：
 
 ---
 
-## 📝 最新文章
-
-<div class="article-list">
-
-- [API中转站是什么？一篇看懂大模型 API 中转的作用与适用场景](/blog/api-middleman/what-is-api-middleman) - 入门必读
-- [大模型 API 中转和官方 API 有什么区别？开发者如何选择](/blog/api-middleman/api-middleman-vs-official-api) - 深度对比
-- [API中转站怎么选？从稳定性、价格、并发和兼容性看这 8 个指标](/blog/api-middleman/how-to-choose-api-middleman) - 选择指南
-- [API 中转站安全吗？数据隐私、风险防范与安全最佳实践](/blog/api-middleman/api-middleman-security) - 安全分析
-- [API 中转站常见问题与解决方案：从报错到修复的完整指南](/blog/api-middleman/api-middleman-troubleshooting) - 故障排查
-
-</div>
-
 <style>
-.article-cards {
-  background: var(--vp-c-bg-soft);
-  border-radius: 12px;
-  padding: 20px;
-  margin: 16px 0;
+/* 最新文章样式 */
+.latest-articles {
+  background: #f0fdf4;
+  border: 2px solid #10b981;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 32px 0;
 }
 
-.article-cards a {
-  display: block;
+.article-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  border-left: 4px solid transparent;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.15);
+}
+
+.article-card.featured {
+  border-left-color: #10b981;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+}
+
+.article-title {
+  font-size: 1.1rem;
   font-weight: 600;
-  color: var(--vp-c-text-1);
-  margin-bottom: 4px;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
 }
 
-.article-cards a:hover {
-  color: #cf6e49;
+.article-title:hover {
+  color: #10b981;
 }
 
-.article-cards :nth-child(even) {
-  margin-top: 16px;
+.article-badge {
+  display: inline-block;
+  background: #10b981;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
-.article-list {
+.article-desc {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 8px 0 0 0;
+}
+
+/* 内容分类网格 */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 32px 0;
+}
+
+.topic-item {
   background: var(--vp-c-bg-soft);
   border-radius: 12px;
-  padding: 20px;
-  margin: 16px 0;
+  padding: 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid var(--claude-border);
 }
 
-.article-list li {
-  margin: 12px 0;
+.topic-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.1);
+  border-color: #10b981;
 }
 
-.article-list a {
-  color: var(--vp-c-text-1);
-  font-weight: 500;
+.topic-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
 }
 
-.article-list a:hover {
-  color: #cf6e49;
+.topic-item h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.topic-item p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .latest-articles {
+    padding: 16px;
+  }
+  
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .article-title {
+    font-size: 1rem;
+  }
+  
+  .article-badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    top: 12px;
+    right: 12px;
+  }
 }
 </style>
