@@ -1,5 +1,5 @@
 ---
-title: 大模型 API 错误处理完整指南
+title: Claude API 错误处理完整指南
 slug: /blog/claude-api/claude-api-error-handling.html
 description: Claude API 错误处理完整指南，详细说明常见错误类型、错误代码含义、排查思路和解决方案，帮助开发者快速定位和解决问题。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 429
 ---
 
-# 大模型 API 错误处理完整指南
+# Claude API 错误处理完整指南
 
 先说结论：
 
@@ -17,9 +17,9 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://jeniya.net>
 
-> Claude API 中转站 平台地址：<https://jeniya.top>
+> Claude API 中转站 平台地址：<https://jeniya.cn>
 
 > Claude API 中转站 平台地址：<https://jeniya.chat>
 

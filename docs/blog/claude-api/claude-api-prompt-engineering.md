@@ -1,5 +1,5 @@
 ---
-title: 大模型 API 提示词工程实战：从入门到精通的优化技巧
+title: Claude API 提示词工程实战：从入门到精通的优化技巧
 slug: /blog/claude-api/claude-api-prompt-engineering.html
 description: 详细讲解 Claude API 提示词工程的核心技巧，包括角色设定、上下文构建、输出格式控制、多轮对话设计等实用方法，帮助开发者充分发挥 Claude 模型能力。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 技术写作
 ---
 
-# 大模型 API 提示词工程实战：从入门到精通的优化技巧
+# Claude API 提示词工程实战：从入门到精通的优化技巧
 
 先说结论：
 
@@ -19,9 +19,9 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://jeniya.net>
 > 
-> Claude API 中转站 平台地址：<https://jeniya.top>
+> Claude API 中转站 平台地址：<https://jeniya.cn>
 > 
 > Claude API 中转站 平台地址：<https://jeniya.chat>
 

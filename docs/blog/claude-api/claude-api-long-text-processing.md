@@ -1,5 +1,5 @@
 ---
-title: 大模型 API 长文本处理实战：文档分析、总结与知识提取
+title: Claude API 长文本处理实战：文档分析、总结与知识提取
 slug: /blog/claude-api/claude-api-long-text-processing.html
 description: 深入讲解 Claude API 长文本处理能力，包括大文档处理、文本总结、信息提取、分块策略和成本优化技巧。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 上下文长度
 ---
 
-# 大模型 API 长文本处理实战：文档分析、总结与知识提取
+# Claude API 长文本处理实战：文档分析、总结与知识提取
 
 先说结论：
 
@@ -17,9 +17,9 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://jeniya.net>
 
-> Claude API 中转站 平台地址：<https://jeniya.top>
+> Claude API 中转站 平台地址：<https://jeniya.cn>
 
 > Claude API 中转站 平台地址：<https://jeniya.chat>
 

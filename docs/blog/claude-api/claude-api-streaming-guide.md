@@ -1,5 +1,5 @@
 ---
-title: 大模型 API 流式输出完整指南：提升用户体验的实时响应方案
+title: Claude API 流式输出完整指南：提升用户体验的实时响应方案
 slug: /blog/claude-api/claude-api-streaming-guide.html
 description: 详细讲解 Claude API 流式输出的实现方式，包括 Python SDK 流式调用、SSE 事件处理、错误恢复和性能优化技巧。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API SSE
 ---
 
-# 大模型 API 流式输出完整指南：提升用户体验的实时响应方案
+# Claude API 流式输出完整指南：提升用户体验的实时响应方案
 
 先说结论：
 
@@ -17,9 +17,9 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://jeniya.net>
 
-> Claude API 中转站 平台地址：<https://jeniya.top>
+> Claude API 中转站 平台地址：<https://jeniya.cn>
 
 > Claude API 中转站 平台地址：<https://jeniya.chat>
 

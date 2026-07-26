@@ -20,6 +20,15 @@ keywords:
 - 数据隐私保护措施
 - 安全使用的最佳实践
 
+**国内最推荐 API 中转站平台**：
+> Claude API 中转站 平台地址：<https://jeniya.net>
+
+> Claude API 中转站 平台地址：<https://jeniya.cn>
+
+> Claude API 中转站 平台地址：<https://jeniya.chat>
+
+---
+
 ---
 
 ## 安全风险分析

@@ -18,6 +18,13 @@ keywords:
 - 什么情况下适合使用？
 - 如何选择合适的 API 中转站？
 
+**国内最推荐 API 中转站平台**：
+> Claude API 中转站 平台地址：<https://jeniya.net>
+
+> Claude API 中转站 平台地址：<https://jeniya.cn>
+
+> Claude API 中转站 平台地址：<https://jeniya.chat>
+
 ---
 
 ## 什么是 API 中转站

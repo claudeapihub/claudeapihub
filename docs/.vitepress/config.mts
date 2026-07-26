@@ -28,7 +28,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '大模型 API 中转站', link: 'https://jeniya.cn' },
       { text: '大模型 API 教程', link: '/blog/claude-api/' },
-      { text: '简易 API 中转站使用指南', link: '/blog/jeniya-api/' },
+      { text: 'API 中转站接入指南', link: '/blog/jeniya-api/' },
       { text: 'API 中转专题', link: '/blog/api-middleman/' },
       { text: '免责申明', link: '/disclaimer' }
     ],
@@ -40,17 +40,18 @@ export default defineConfig({
           text: '📚 大模型 API 教程',
           collapsed: false,
           items: [
-            { text: '大模型 API 分类首页', link: '/blog/claude-api/' },
-            { text: '大模型 API 如何调用？Python 接入示例与参数说明', link: '/blog/claude-api/claude-api-python-guide' },
-            { text: '大模型 API 国内怎么用？申请、接入与中转方案完整教程', link: '/blog/claude-api/claude-api-china-guide' },
+            { text: 'Claude API 分类首页', link: '/blog/claude-api/' },
+            { text: 'Claude API Python 入门教程：从安装到流式输出，保姆级完整指南', link: '/blog/claude-api/claude-api-python-complete-guide' },
+            { text: 'Claude API 如何调用？Python 接入示例与参数说明', link: '/blog/claude-api/claude-api-python-guide' },
+            { text: 'Claude API 国内怎么用？申请、接入与中转方案完整教程', link: '/blog/claude-api/claude-api-china-guide' },
             { text: 'Claude 模型版本对比：Haiku vs Sonnet vs Opus 如何选择', link: '/blog/claude-api/claude-models-comparison' },
-            { text: '大模型 API 最佳实践：提示词优化与成本控制', link: '/blog/claude-api/claude-api-best-practices' },
-            { text: '大模型 API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
-            { text: '大模型 API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
-            { text: '大模型 API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' },
-            { text: '大模型 API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
-            { text: '大模型 API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' },
-            { text: '大模型 API 视觉能力实战：图像理解与分析完整指南', link: '/blog/claude-api/claude-api-vision-guide' }
+            { text: 'Claude API 最佳实践：提示词优化与成本控制', link: '/blog/claude-api/claude-api-best-practices' },
+            { text: 'Claude API 错误处理完整指南', link: '/blog/claude-api/claude-api-error-handling' },
+            { text: 'Claude API 流式输出完整指南：提升用户体验的实时响应方案', link: '/blog/claude-api/claude-api-streaming-guide' },
+            { text: 'Claude API 长文本处理实战：文档分析、总结与知识提取', link: '/blog/claude-api/claude-api-long-text-processing' },
+            { text: 'Claude API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
+            { text: 'Claude API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' },
+            { text: 'Claude API 视觉能力实战：图像理解与分析完整指南', link: '/blog/claude-api/claude-api-vision-guide' }
           ]
         },
         {

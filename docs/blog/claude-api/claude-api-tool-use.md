@@ -1,5 +1,5 @@
 ---
-title: 大模型 API 工具使用实战：函数调用与外部工具集成
+title: Claude API 工具使用实战：函数调用与外部工具集成
 slug: /blog/claude-api/claude-api-tool-use.html
 description: 详细讲解 Claude API 工具使用功能，包括函数调用、工具定义、多工具协作、实际应用场景和最佳实践，帮助开发者构建更强大的 AI 应用。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API Function Calling
 ---
 
-# 大模型 API 工具使用实战：函数调用与外部工具集成
+# Claude API 工具使用实战：函数调用与外部工具集成
 
 先说结论：
 
@@ -17,9 +17,9 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://jeniya.net>
 
-> Claude API 中转站 平台地址：<https://jeniya.top>
+> Claude API 中转站 平台地址：<https://jeniya.cn>
 
 > Claude API 中转站 平台地址：<https://jeniya.chat>
 

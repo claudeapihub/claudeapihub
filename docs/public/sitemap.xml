@@ -66,6 +66,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://claudeapihub.com/blog/claude-api/claude-api-python-complete-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://claudeapihub.com/blog/claude-api/claude-api-best-practices.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

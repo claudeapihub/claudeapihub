@@ -15,6 +15,9 @@ description: 大模型 API 完整教程，包括接口使用方式、接入流�
 
 <div class="tutorial-cards">
 
+[Claude API Python 入门教程：从安装到流式输出，保姆级完整指南](/blog/claude-api/claude-api-python-complete-guide)
+: 零基础完整教程，从环境安装、第一次调用到流式输出，手把手教你接入 Claude API
+
 [大模型 API 如何调用？Python 接入示例与参数说明](/blog/claude-api/claude-api-python-guide)
 : 从零开始学习大模型 API 调用，包含完整的 Python 示例和参数详解
 
@@ -36,25 +39,25 @@ description: 大模型 API 完整教程，包括接口使用方式、接入流�
 
 <div class="tutorial-cards">
 
-[大模型 API 最佳实践：提示词优化与成本控制](/blog/claude-api/claude-api-best-practices)
+[Claude API 最佳实践：提示词优化与成本控制](/blog/claude-api/claude-api-best-practices)
 : 分享提示词优化技巧、成本控制策略，提升开发效率
 
-[大模型 API 错误处理完整指南](/blog/claude-api/claude-api-error-handling)
+[Claude API 错误处理完整指南](/blog/claude-api/claude-api-error-handling)
 : 全面讲解错误类型、处理方法、重试策略
 
-[大模型 API 流式输出完整指南：提升用户体验的实时响应方案](/blog/claude-api/claude-api-streaming-guide)
+[Claude API 流式输出完整指南：提升用户体验的实时响应方案](/blog/claude-api/claude-api-streaming-guide)
 : 详细讲解流式输出实现方式，提升用户体验
 
-[大模型 API 长文本处理实战：文档分析、总结与知识提取](/blog/claude-api/claude-api-long-text-processing)
+[Claude API 长文本处理实战：文档分析、总结与知识提取](/blog/claude-api/claude-api-long-text-processing)
 : 深入讲解大模型的核心优势——长文本处理能力
 
-[大模型 API 提示词工程实战：从入门到精通的优化技巧](/blog/claude-api/claude-api-prompt-engineering)
+[Claude API 提示词工程实战：从入门到精通的优化技巧](/blog/claude-api/claude-api-prompt-engineering)
 : 系统讲解提示词工程核心技巧，包括角色设定、上下文构建、输出格式控制等
 
-[大模型 API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use)
+[Claude API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use)
 : 详细讲解工具使用功能，包括函数调用、多工具协作、实际应用场景
 
-[大模型 API 视觉能力实战：图像理解与分析完整指南](/blog/claude-api/claude-api-vision-guide)
+[Claude API 视觉能力实战：图像理解与分析完整指南](/blog/claude-api/claude-api-vision-guide)
 : 详细讲解图像输入方式、OCR识别、图表分析、多图处理等视觉能力
 
 </div>
@@ -202,16 +205,17 @@ def summarize_long_text(text: str):
 
 <div class="article-list">
 
-- [大模型 API 如何调用？Python 接入示例与参数说明](/blog/claude-api/claude-api-python-guide) - 从零开始的完整教程
-- [大模型 API 国内怎么用？申请、接入与中转方案完整教程](/blog/claude-api/claude-api-china-guide) - 国内开发者必读
+- [Claude API Python 入门教程：从安装到流式输出，保姆级完整指南](/blog/claude-api/claude-api-python-complete-guide) - 零基础完整教程
+- [Claude API 如何调用？Python 接入示例与参数说明](/blog/claude-api/claude-api-python-guide) - 从零开始的完整教程
+- [Claude API 国内怎么用？申请、接入与中转方案完整教程](/blog/claude-api/claude-api-china-guide) - 国内开发者必读
 - [Claude 模型版本对比：Haiku vs Sonnet vs Opus 如何选择](/blog/claude-api/claude-models-comparison) - 模型选择指南
-- [大模型 API 最佳实践：提示词优化与成本控制](/blog/claude-api/claude-api-best-practices) - 提升开发效率
-- [大模型 API 错误处理完整指南](/blog/claude-api/claude-api-error-handling) - 构建健壮应用
-- [大模型 API 流式输出完整指南：提升用户体验的实时响应方案](/blog/claude-api/claude-api-streaming-guide) - 实时响应方案
-- [大模型 API 长文本处理实战：文档分析、总结与知识提取](/blog/claude-api/claude-api-long-text-processing) - 发挥长文本优势
-- [大模型 API 提示词工程实战：从入门到精通的优化技巧](/blog/claude-api/claude-api-prompt-engineering) - 提示词优化技巧
-- [大模型 API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use) - 工具使用与函数调用
-- [大模型 API 视觉能力实战：图像理解与分析完整指南](/blog/claude-api/claude-api-vision-guide) - 图像识别与分析
+- [Claude API 最佳实践：提示词优化与成本控制](/blog/claude-api/claude-api-best-practices) - 提升开发效率
+- [Claude API 错误处理完整指南](/blog/claude-api/claude-api-error-handling) - 构建健壮应用
+- [Claude API 流式输出完整指南：提升用户体验的实时响应方案](/blog/claude-api/claude-api-streaming-guide) - 实时响应方案
+- [Claude API 长文本处理实战：文档分析、总结与知识提取](/blog/claude-api/claude-api-long-text-processing) - 发挥长文本优势
+- [Claude API 提示词工程实战：从入门到精通的优化技巧](/blog/claude-api/claude-api-prompt-engineering) - 提示词优化技巧
+- [Claude API 工具使用实战：函数调用与外部工具集成](/blog/claude-api/claude-api-tool-use) - 工具使用与函数调用
+- [Claude API 视觉能力实战：图像理解与分析完整指南](/blog/claude-api/claude-api-vision-guide) - 图像识别与分析
 
 </div>
 

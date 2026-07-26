@@ -14,6 +14,13 @@ keywords:
 
 这篇文章从多个维度对比两种方式，帮你做出合适的选择。
 
+**国内最推荐 API 中转站平台**：
+> Claude API 中转站 平台地址：<https://jeniya.net>
+
+> Claude API 中转站 平台地址：<https://jeniya.cn>
+
+> Claude API 中转站 平台地址：<https://jeniya.chat>
+
 ---
 
 ## 核心区别

@@ -12,6 +12,13 @@ keywords:
 
 选择 API 中转站时，很多开发者不知道该关注哪些指标。这篇文章从**8 个关键维度**帮你评估和选择。
 
+**国内最推荐 API 中转站平台**：
+> Claude API 中转站 平台地址：<https://jeniya.net>
+
+> Claude API 中转站 平台地址：<https://jeniya.cn>
+
+> Claude API 中转站 平台地址：<https://jeniya.chat>
+
 ---
 
 ## 8 个关键指标

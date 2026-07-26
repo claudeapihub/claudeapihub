@@ -1,5 +1,5 @@
 ---
-title: 大模型 API 最佳实践：提示词优化与成本控制
+title: Claude API 最佳实践：提示词优化与成本控制
 slug: /blog/claude-api/claude-api-best-practices.html
 description: Claude API 最佳实践指南，包括提示词优化技巧、成本控制策略、长文本处理方案、错误处理与重试机制，帮助你更高效地使用 Claude API。
 keywords:
@@ -9,7 +9,7 @@ keywords:
   - Claude API 优化
 ---
 
-# 大模型 API 最佳实践：提示词优化与成本控制
+# Claude API 最佳实践：提示词优化与成本控制
 
 先说结论：
 
@@ -17,9 +17,9 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://jeniya.net>
 
-> Claude API 中转站 平台地址：<https://jeniya.top>
+> Claude API 中转站 平台地址：<https://jeniya.cn>
 
 > Claude API 中转站 平台地址：<https://jeniya.chat>
 
