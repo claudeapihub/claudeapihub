@@ -79,7 +79,8 @@ export default defineConfig({
             { text: '流式输出完整指南', link: '/blog/jeniya-api/streaming-guide' },
             { text: '成本优化指南', link: '/blog/jeniya-api/cost-optimization' },
             { text: '最佳实践', link: '/blog/jeniya-api/best-practices' },
-            { text: '常见问题 FAQ', link: '/blog/jeniya-api/faq' }
+            { text: '常见问题 FAQ', link: '/blog/jeniya-api/faq' },
+            { text: '国内如何稳定直连调用 Claude Opus 4.8 API 完整指南', link: '/blog/jeniya-api/claude-4-8-opus-guide'}
           ]
         },
         {

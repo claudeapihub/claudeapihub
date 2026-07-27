@@ -170,4 +170,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+    <loc>https://claudeapihub.com/blog/jeniya-api/claude-4-8-opus-guide.mdl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
