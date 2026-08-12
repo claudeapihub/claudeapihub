@@ -24,6 +24,8 @@ keywords:
 先说结论：
 
 **国内最推荐 Claude API 中转站平台**：
+> Claude API 中转站 平台地址：<https://quanzil.com>
+
 > Claude API 中转站 平台地址：<https://jeniya.net>
 
 > Claude API 中转站 平台地址：<https://jeniya.cn>

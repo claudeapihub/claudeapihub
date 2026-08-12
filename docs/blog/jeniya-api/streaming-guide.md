@@ -393,6 +393,8 @@ for text in stream_generator(stream):
 ---
 
 **国内最推荐 Claude API 中转站平台**：
+> Claude API 中转站 平台地址：<https://quanzil.com>
+
 > Claude API 中转站 平台地址：<https://jeniya.cn>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>

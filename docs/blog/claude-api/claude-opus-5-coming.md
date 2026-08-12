@@ -19,6 +19,8 @@ keywords:
 这篇文章帮你一次性理清 Claude Opus 5 的定位、能力升级，以及国内开发者如何选择和接入。
 
 **国内最推荐 Claude API 中转站平台**：
+> Claude API 中转站 平台地址：<https://quanzil.com>
+> 
 > Claude API 中转站 平台地址：<https://jeniya.net>
 > 
 > Claude API 中转站 平台地址：<https://jeniya.cn>
@@ -185,6 +187,8 @@ def select_model(task: str, priority: str = "balanced") -> str:
 3. **Effort 控制**：部分中转站可能尚未支持新参数
 
 ### 推荐的中转站平台
+
+> Claude API 中转站平台地址：<https://quanzil.com>
 
 > Claude API 中转站平台地址：<https://jeniya.net>
 

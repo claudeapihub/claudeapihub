@@ -24,6 +24,8 @@ keywords:
 对于国内开发者来说，实际使用时最常见的问题并不是"Claude 好不好"，而是"**怎么接、怎么调、怎么选版本**"。
 
 **国内最推荐 Claude API 中转站平台**：
+> Claude API 中转站 平台地址：<https://quanzil.com>
+
 > Claude API 中转站 平台地址：<https://jeniya.net>
 
 > Claude API 中转站 平台地址：<https://jeniya.cn>
