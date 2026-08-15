@@ -82,7 +82,8 @@ export default defineConfig({
             { text: '成本优化指南', link: '/blog/jeniya-api/cost-optimization' },
             { text: '最佳实践', link: '/blog/jeniya-api/best-practices' },
             { text: '常见问题 FAQ', link: '/blog/jeniya-api/faq' },
-            { text: '国内如何稳定直连调用 Claude Opus 4.8 API 完整指南', link: '/blog/jeniya-api/claude-4-8-opus-guide'}
+            { text: '国内如何稳定直连调用 Claude Opus 4.8 API 完整指南', link: '/blog/jeniya-api/claude-4-8-opus-guide'},
+            { text: '国内安装 Claude Code 并切换使用国内大模型 API 完整指南', link: '/blog/jeniya-api/claude-code-install' },
           ]
         },
         {
