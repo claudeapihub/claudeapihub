@@ -1,18 +1,18 @@
----
-title: jeniya.cn 错误处理指南
+﻿---
+title: quanzil.com 错误处理指南
 slug: /blog/jeniya-api/error-handling.html
-description: jeniya.cn API 错误处理完整指南，包括常见错误代码、处理策略和重试机制。
+description: quanzil.com API 错误处理完整指南，包括常见错误代码、处理策略和重试机制。
 keywords:
-  - jeniya.cn 错误处理
+  - quanzil.com 错误处理
   - API 错误代码
   - 重试机制
   - RateLimitError
   - API 限流
 ---
 
-# jeniya.cn 错误处理指南
+# quanzil.com 错误处理指南
 
-本文介绍 jeniya.cn API 的错误处理方法。
+本文介绍 quanzil.com API 的错误处理方法。
 
 ## 常见错误代码
 
@@ -354,7 +354,7 @@ class APIErrorHandler {
 ---
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

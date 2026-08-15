@@ -1,22 +1,22 @@
----
-title: jeniya.cn 支持模型列表
+﻿---
+title: quanzil.com 支持模型列表
 slug: /blog/jeniya-api/models.html
-description: jeniya.cn 支持 Claude、GPT、Gemini 等主流大模型，详细模型信息、倍率和使用场景。
+description: quanzil.com 支持 Claude、GPT、Gemini 等主流大模型，详细模型信息、倍率和使用场景。
 keywords:
-  - jeniya.cn 支持模型
+  - quanzil.com 支持模型
   - Claude 模型列表
   - Gemini 模型列表
   - GPT 模型列表
   - 国产模型支持
 ---
 
-# jeniya.cn 支持模型列表
+# quanzil.com 支持模型列表
 
-jeniya.cn 支持多种主流大模型，覆盖 Claude、GPT、Gemini 及国产模型系列。
+quanzil.com 支持多种主流大模型，覆盖 Claude、GPT、Gemini 及国产模型系列。
 
 ## Claude 系列
 
-**接入地址：** `https://api.jeniya.cn/v1`
+**接入地址：** `https://api.quanzil.com/v1`
 
 | 模型 | 模型 ID | 上下文 | 适用场景 | 倍率 |
 |------|---------|--------|---------|------|
@@ -31,7 +31,7 @@ jeniya.cn 支持多种主流大模型，覆盖 Claude、GPT、Gemini 及国产�
 
 ## Gemini 系列
 
-**接入地址：** `https://api.jeniya.cn/google/v1`
+**接入地址：** `https://api.quanzil.com/google/v1`
 
 | 模型 | 模型 ID | 上下文 | 适用场景 | 倍率 |
 |------|---------|--------|---------|------|
@@ -46,7 +46,7 @@ jeniya.cn 支持多种主流大模型，覆盖 Claude、GPT、Gemini 及国产�
 
 ## GPT 系列
 
-**接入地址：** `https://api.jeniya.cn/openai/v1`
+**接入地址：** `https://api.quanzil.com/openai/v1`
 
 | 模型 | 模型 ID | 上下文 | 适用场景 | 倍率 |
 |------|---------|--------|---------|------|
@@ -55,7 +55,7 @@ jeniya.cn 支持多种主流大模型，覆盖 Claude、GPT、Gemini 及国产�
 
 ## 国产模型
 
-**接入地址：** `https://api.jeniya.cn/v1`
+**接入地址：** `https://api.quanzil.com/v1`
 
 | 模型 | 模型 ID | 适用场景 | 倍率 |
 |------|---------|---------|------|
@@ -93,7 +93,7 @@ jeniya.cn 支持多种主流大模型，覆盖 Claude、GPT、Gemini 及国产�
 ---
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

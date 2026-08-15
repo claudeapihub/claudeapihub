@@ -1,18 +1,18 @@
----
-title: jeniya.cn Python 接入教程
+﻿---
+title: quanzil.com Python 接入教程
 slug: /blog/jeniya-api/python-guide.html
-description: Python 开发者使用 jeniya.cn API 的完整指南，包括 Claude、Gemini、GPT 的接入示例。
+description: Python 开发者使用 quanzil.com API 的完整指南，包括 Claude、Gemini、GPT 的接入示例。
 keywords:
-  - jeniya.cn Python 接入
+  - quanzil.com Python 接入
   - Claude API Python
   - Gemini API Python
   - GPT API Python
   - API 接入示例
 ---
 
-# jeniya.cn Python 接入教程
+# quanzil.com Python 接入教程
 
-本教程介绍如何在 Python 项目中使用 jeniya.cn API。
+本教程介绍如何在 Python 项目中使用 quanzil.com API。
 
 ## 安装依赖
 
@@ -36,7 +36,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     api_key="your_api_key",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 message = client.messages.create(
@@ -57,7 +57,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     api_key="your_api_key",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 with client.messages.stream(
@@ -79,7 +79,7 @@ import time
 def safe_call(prompt, max_retries=3):
     client = anthropic.Anthropic(
         api_key="your_api_key",
-        base_url="https://api.jeniya.cn/v1"
+        base_url="https://api.quanzil.com/v1"
     )
     
     for attempt in range(max_retries):
@@ -114,7 +114,7 @@ import google.generativeai as genai
 genai.configure(
     api_key="your_api_key",
     transport="rest",
-    client_options={"api_endpoint": "https://api.jeniya.cn/google"}
+    client_options={"api_endpoint": "https://api.quanzil.com/google"}
 )
 
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -130,7 +130,7 @@ import google.generativeai as genai
 genai.configure(
     api_key="your_api_key",
     transport="rest",
-    client_options={"api_endpoint": "https://api.jeniya.cn/google"}
+    client_options={"api_endpoint": "https://api.quanzil.com/google"}
 )
 
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -149,7 +149,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="your_api_key",
-    base_url="https://api.jeniya.cn/openai/v1"
+    base_url="https://api.quanzil.com/openai/v1"
 )
 
 response = client.chat.completions.create(
@@ -169,7 +169,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="your_api_key",
-    base_url="https://api.jeniya.cn/openai/v1"
+    base_url="https://api.quanzil.com/openai/v1"
 )
 
 stream = client.chat.completions.create(
@@ -197,7 +197,7 @@ npm install -g @anthropic-ai/claude-code
 {
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "your_api_key",
-    "ANTHROPIC_BASE_URL": "https://api.jeniya.cn/v1"
+    "ANTHROPIC_BASE_URL": "https://api.quanzil.com/v1"
   }
 }
 ```
@@ -214,14 +214,14 @@ npm install -g @anthropic-ai/claude-code
       "provider": "anthropic",
       "model": "claude-sonnet-4.5",
       "apiKey": "your_api_key",
-      "apiBase": "https://api.jeniya.cn/v1"
+      "apiBase": "https://api.quanzil.com/v1"
     },
     {
       "title": "Gemini Flash (jeniya)",
       "provider": "gemini",
       "model": "gemini-2.5-flash",
       "apiKey": "your_api_key",
-      "apiBase": "https://api.jeniya.cn/google/v1"
+      "apiBase": "https://api.quanzil.com/google/v1"
     }
   ]
 }
@@ -234,13 +234,13 @@ npm install -g @anthropic-ai/claude-code
 ```yaml
 model: anthropic/claude-sonnet-4.5
 api-key: your_api_key
-api-base: https://api.jeniya.cn/v1
+api-base: https://api.quanzil.com/v1
 ```
 
 ## 常见问题
 
 **Q: 如何获取 API Key？**  
-A: 登录 jeniya.cn → 令牌管理 → 创建令牌
+A: 登录 quanzil.com → 令牌管理 → 创建令牌
 
 **Q: 为什么请求失败？**  
 A: 检查：1. 令牌是否正确 2. 余额是否充足 3. 请求格式是否正确
@@ -257,7 +257,7 @@ A: 使用特惠分组、选择更便宜的模型（如 Haiku/Flash）、优化�
 ---
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

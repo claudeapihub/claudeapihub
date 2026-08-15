@@ -7,7 +7,7 @@ description: 大模型 API 常见问题解答，包括接入方式、模型选�
 
 这里整理了大模型 API 在接入、使用、计费等方面的常见问题。
 
-> 🚀 大模型 API 平台地址：<https://jeniya.cn>
+> 🚀 大模型 API 平台地址：<https://quanzil.com>
 
 ---
 
@@ -56,7 +56,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 response = client.chat.completions.create(
@@ -119,7 +119,7 @@ from openai import OpenAI
 # 创建客户端
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 # 发送请求
@@ -145,7 +145,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"  # 只需修改这里
+    base_url="https://quanzil.com/v1"  # 只需修改这里
 )
 ```
 
@@ -156,7 +156,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 # 基础调用
@@ -394,8 +394,9 @@ prompt = """
 
 ### 24. 平台地址是什么？
 
-- 主站：<https://jeniya.cn>
+- 主站：<https://quanzil.com>
 - 备用：<https://jeniya.top>
+- 备用：<https://jeniya.cn>
 - 备用：<https://jeniya.chat>
 
 ### 25. 遇到问题如何联系？
@@ -421,7 +422,7 @@ prompt = """
 
 <div class="action-buttons">
 
-[前往大模型 API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://quanzil.com){.brand}
 
 [查看接入文档](/docs.html){.alt}
 

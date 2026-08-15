@@ -7,7 +7,7 @@ description: 查看大模型 API 支持的模型列表，包括 GPT、Claude、G
 
 我们提供多系列大模型 API 中转服务，支持 GPT、Claude、Gemini 等多个版本，兼容 OpenAI 格式，方便开发者使用统一方式完成接入、调用与切换。
 
-> 🚀 大模型 API 平台地址：<https://jeniya.cn>
+> 🚀 大模型 API 平台地址：<https://quanzil.com>
 
 ## 接口兼容性
 
@@ -18,7 +18,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 ```
 
@@ -214,7 +214,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 # 使用 Sonnet 进行常规对话
@@ -269,7 +269,7 @@ response = client.chat.completions.create(
 
 <div class="action-buttons">
 
-[前往大模型 API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://quanzil.com){.brand}
 
 [查看接入文档](/docs.html){.alt}
 

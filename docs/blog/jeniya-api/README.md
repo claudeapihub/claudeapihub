@@ -1,11 +1,11 @@
-# jeniya.cn API 中转服务文档
+﻿# quanzil.com API 中转服务文档
 
-jeniya.cn 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
+quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
 
 ## 📚 文档导航
 
 ### 快速开始
-- **[完整指南](./index.md)** - jeniya.cn API 的完整使用指南
+- **[完整指南](./index.md)** - quanzil.com API 的完整使用指南
 - **[快速开始](./quick-start.md)** - 5分钟快速上手教程
 
 ### 入门教程
@@ -43,7 +43,7 @@ docs/
 ## 🚀 快速开始
 
 ### 1. 注册账号
-访问 [jeniya.cn](https://jeniya.cn) 注册，新用户送 ¥10 体验额度
+访问 [quanzil.com](https://quanzil.com) 注册，新用户送 ¥10 体验额度
 
 ### 2. 创建令牌
 登录后进入"令牌管理"，创建新令牌
@@ -56,7 +56,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     api_key="your_api_key",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 message = client.messages.create(
@@ -74,7 +74,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 const message = await client.messages.create({
@@ -88,7 +88,7 @@ console.log(message.content);
 
 ## 📖 推荐阅读顺序
 
-1. **[完整指南](./index.md)** - 了解 jeniya.cn 的基本概念和功能
+1. **[完整指南](./index.md)** - 了解 quanzil.com 的基本概念和功能
 2. **[快速开始](./quick-start.md)** - 5分钟完成配置和测试
 3. **[Python 接入教程](./python-guide.md)** 或 **[Node.js 接入教程](./nodejs-guide.md)** - 选择你使用的语言
 4. **[支持模型](./models.md)** - 了解支持的模型和选择建议
@@ -104,12 +104,12 @@ console.log(message.content);
 
 ## 🤝 技术支持
 
-- **文档**: https://jeniya.cn/docs
-- **API 文档**: https://jeniya.cn/api-docs
-- **客服**: support@jeniya.cn
+- **文档**: https://quanzil.com/docs
+- **API 文档**: https://quanzil.com/api-docs
+- **客服**: support@quanzil.com
 - **工单**: 控制台提交
 
 ---
 
-**感谢使用 jeniya.cn！**  
+**感谢使用 quanzil.com！**  
 如有任何问题，欢迎随时联系我们。

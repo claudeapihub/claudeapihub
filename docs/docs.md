@@ -22,8 +22,8 @@ description: 大模型 API 接入文档，包括接口地址、请求格式、�
 ### 第二步：了解接口地址
 
 ```
-Base URL: https://jeniya.cn/v1
-Chat 接口: https://jeniya.cn/v1/chat/completions
+Base URL: https://quanzil.com/v1
+Chat 接口: https://quanzil.com/v1/chat/completions
 ```
 
 ### 第三步：发送第一个请求
@@ -33,7 +33,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 response = client.chat.completions.create(
@@ -65,7 +65,7 @@ from openai import OpenAI
 # 只需修改 base_url
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"  # 指向中转站
+    base_url="https://quanzil.com/v1"  # 指向中转站
 )
 
 # 其余代码无需修改
@@ -87,7 +87,7 @@ response = client.chat.completions.create(
 import requests
 import json
 
-url = "https://jeniya.cn/v1/chat/completions"
+url = "https://quanzil.com/v1/chat/completions"
 api_key = "YOUR_API_KEY"
 
 payload = {
@@ -120,7 +120,7 @@ print(result["choices"][0]["message"]["content"])
 ### cURL 示例
 
 ```bash
-curl -X POST https://jeniya.cn/v1/chat/completions \
+curl -X POST https://quanzil.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
@@ -139,7 +139,7 @@ import OpenAI from 'openai';
 
 const client = new OpenAI({
   apiKey: 'YOUR_API_KEY',
-  baseURL: 'https://jeniya.cn/v1'
+  baseURL: 'https://quanzil.com/v1'
 });
 
 async function main() {
@@ -300,7 +300,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 stream = client.chat.completions.create(
@@ -325,7 +325,7 @@ from openai import AsyncOpenAI
 async def stream_chat():
     client = AsyncOpenAI(
         api_key="YOUR_API_KEY",
-        base_url="https://jeniya.cn/v1"
+        base_url="https://quanzil.com/v1"
     )
 
     stream = await client.chat.completions.create(
@@ -364,7 +364,7 @@ from openai import OpenAI, APIError, RateLimitError, APIConnectionError
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 def call_with_retry(messages, max_retries=3):
@@ -507,7 +507,7 @@ def chat_with_history(client, messages, new_message, max_history=10):
 
 <div class="action-buttons">
 
-[前往大模型 API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://quanzil.com){.brand}
 
 [查看常见问题](/faq.html){.alt}
 

@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 🚀 立即访问大模型 API 中转站
-      link: https://jeniya.cn
+      link: https://quanzil.com
     - theme: alt
       text: 📖 开始阅读 API 教程
       link: /blog/claude-api/
@@ -114,16 +114,16 @@ features:
   <div class="step-title">注册获取Key</div>
   <div class="step-desc">注册账号，在后台创建页面，获取API Key</div>
   <div class="step-link">
-    <a href="https://jeniya.cn/" class="link-btn">立即注册</a>
+    <a href="https://quanzil.com/" class="link-btn">立即注册</a>
   </div>
 </div>
 
 <div class="step-card">
   <div class="step-number">2</div>
   <div class="step-title">替换接口地址</div>
-  <div class="step-desc">将官方API地址替换为：<br><code>https://jeniya.cn/v1</code></div>
+  <div class="step-desc">将官方API地址替换为：<br><code>https://quanzil.com/v1</code></div>
   <div class="step-link">
-    <a href="https://jeniya.cn/" class="link-btn">复制地址</a>
+    <a href="https://quanzil.com/" class="link-btn">复制地址</a>
   </div>
 </div>
 
@@ -132,7 +132,7 @@ features:
   <div class="step-title">开始调用</div>
   <div class="step-desc">使用现有代码，无需修改其他内容</div>
   <div class="step-link">
-    <a href="https://jeniya.cn/" class="link-btn">查看文档</a>
+    <a href="https://quanzil.com/" class="link-btn">查看文档</a>
   </div>
 </div>
 
@@ -620,7 +620,7 @@ from openai import OpenAI
 # 使用 OpenAI SDK 接入大模型 API
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 response = client.chat.completions.create(

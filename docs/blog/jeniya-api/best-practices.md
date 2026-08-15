@@ -1,18 +1,18 @@
----
-title: jeniya.cn 最佳实践
+﻿---
+title: quanzil.com 最佳实践
 slug: /blog/jeniya-api/best-practices.html
-description: jeniya.cn API 使用最佳实践，包括令牌管理、成本优化、错误处理和监控日志。
+description: quanzil.com API 使用最佳实践，包括令牌管理、成本优化、错误处理和监控日志。
 keywords:
-  - jeniya.cn 最佳实践
+  - quanzil.com 最佳实践
   - 令牌管理
   - 成本优化
   - 错误处理
   - 监控日志
 ---
 
-# jeniya.cn 最佳实践
+# quanzil.com 最佳实践
 
-本文介绍 jeniya.cn API 使用的最佳实践，帮助你更高效、更经济地使用服务。
+本文介绍 quanzil.com API 使用的最佳实践，帮助你更高效、更经济地使用服务。
 
 ## 令牌管理
 
@@ -125,7 +125,7 @@ def safe_call(prompt, max_retries=3):
     """带重试的安全调用"""
     client = anthropic.Anthropic(
         api_key="your_api_key",
-        base_url="https://api.jeniya.cn/v1"
+        base_url="https://api.quanzil.com/v1"
     )
     
     for attempt in range(max_retries):
@@ -157,7 +157,7 @@ import logging from 'winston';
 
 const client = new Anthropic({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 async function safeCall(prompt, maxRetries = 3) {
@@ -220,7 +220,7 @@ import requests
 
 def check_balance_threshold(threshold=100):
     """检查余额是否低于阈值"""
-    # 调用 jeniya.cn API 获取余额信息
+    # 调用 quanzil.com API 获取余额信息
     # 这里需要根据实际的余额查询接口调整
     current_balance = get_current_balance()
     

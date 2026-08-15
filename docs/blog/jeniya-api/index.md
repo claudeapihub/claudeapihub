@@ -1,11 +1,11 @@
----
-title: jeniya.cn API 中转服务完整指南
-description: jeniya.cn 是专业的 AI API 中转服务平台，本指南将帮助您快速上手，从注册到使用，涵盖所有常见场景和问题。
+﻿---
+title: quanzil.com API 中转服务完整指南
+description: quanzil.com 是专业的 AI API 中转服务平台，本指南将帮助您快速上手，从注册到使用，涵盖所有常见场景和问题。
 ---
 
-# jeniya.cn API 中转服务完整指南
+# quanzil.com API 中转服务完整指南
 
-jeniya.cn 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
+quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
 
 ---
 
@@ -22,22 +22,22 @@ jeniya.cn 是专业的 AI API 中转服务平台，为开发者提供稳定、�
 <div class="article-card">
 <a href="/blog/jeniya-api/quick-start" class="article-title">快速开始指南：3步完成接入，30秒开始使用</a>
 <span class="article-badge">NEW</span>
-<p class="article-desc">从注册、充值到测试调用，手把手教你快速上手 jeniya.cn</p>
+<p class="article-desc">从注册、充值到测试调用，手把手教你快速上手 quanzil.com</p>
 </div>
 
 <div class="article-card">
 <a href="/blog/jeniya-api/python-guide" class="article-title">Python 接入教程：完整示例与流式输出</a>
-<p class="article-desc">使用 Python SDK 完整接入 jeniya.cn，包含流式输出和错误处理</p>
+<p class="article-desc">使用 Python SDK 完整接入 quanzil.com，包含流式输出和错误处理</p>
 </div>
 
 <div class="article-card">
 <a href="/blog/jeniya-api/nodejs-guide" class="article-title">Node.js 接入教程：实战代码与最佳实践</a>
-<p class="article-desc">使用 Node.js SDK 完整接入 jeniya.cn，包含常见集成场景</p>
+<p class="article-desc">使用 Node.js SDK 完整接入 quanzil.com，包含常见集成场景</p>
 </div>
 
 <div class="article-card">
 <a href="/blog/jeniya-api/models" class="article-title">支持模型列表：Claude / GPT / Gemini 全覆盖</a>
-<p class="article-desc">详细说明 jeniya.cn 支持的所有模型，包括模型 ID 和接入方式</p>
+<p class="article-desc">详细说明 quanzil.com 支持的所有模型，包括模型 ID 和接入方式</p>
 </div>
 
 </div>
@@ -46,7 +46,7 @@ jeniya.cn 是专业的 AI API 中转服务平台，为开发者提供稳定、�
 
 ## 📋 目录
 
-- [什么是 jeniya.cn](#什么是-jeniyacn)
+- [什么是 quanzil.com](#什么是-jeniyacn)
 - [快速开始](#快速开始)
 - [模型支持](#模型支持)
 - [使用教程](#使用教程)
@@ -56,9 +56,9 @@ jeniya.cn 是专业的 AI API 中转服务平台，为开发者提供稳定、�
 
 ---
 
-## 什么是 jeniya.cn
+## 什么是 quanzil.com
 
-jeniya.cn 是一个专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
+quanzil.com 是一个专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
 
 ### 核心优势
 
@@ -101,7 +101,7 @@ jeniya.cn 是一个专业的 AI API 中转服务平台，为开发者提供稳�
 
 ### 第一步：注册账号
 
-1. 访问 [jeniya.cn](https://jeniya.cn)
+1. 访问 [quanzil.com](https://quanzil.com)
 2. 点击右上角"注册"按钮
 3. 填写邮箱和密码
 4. 验证邮箱
@@ -164,14 +164,14 @@ GPT 特惠分组 (0.2x):
 
 ```bash
 # Claude API 测试
-curl https://api.jeniya.cn/v1/messages \
+curl https://api.quanzil.com/v1/messages \
   -H "Content-Type: application/json" \
   -H "x-api-key: 你的令牌" \
   -H "anthropic-version: 2023-06-01" \
   -d '{"model": "claude-sonnet-4.5","max_tokens": 1024,"messages": [{"role": "user", "content": "你好"}]}'
 
 # Gemini API 测试
-curl https://api.jeniya.cn/google/v1/models/gemini-2.5-flash:generateContent \
+curl https://api.quanzil.com/google/v1/models/gemini-2.5-flash:generateContent \
   -H "Content-Type: application/json" \
   -H "x-api-key: 你的令牌" \
   -d '{"contents": [{"parts": [{"text": "你好"}]}]}'
@@ -185,7 +185,7 @@ curl https://api.jeniya.cn/google/v1/models/gemini-2.5-flash:generateContent \
 
 ### Claude 系列
 
-**接入地址：** `https://api.jeniya.cn/v1`
+**接入地址：** `https://api.quanzil.com/v1`
 
 **支持模型：**
 
@@ -202,7 +202,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     api_key="你的令牌",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 message = client.messages.create(
@@ -223,7 +223,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
   apiKey: '你的令牌',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 const message = await client.messages.create({
@@ -237,7 +237,7 @@ console.log(message.content);
 
 ### Gemini 系列
 
-**接入地址：** `https://api.jeniya.cn/google/v1`
+**接入地址：** `https://api.quanzil.com/google/v1`
 
 **支持模型：**
 
@@ -255,7 +255,7 @@ import google.generativeai as genai
 genai.configure(
     api_key="你的令牌",
     transport="rest",
-    client_options={"api_endpoint": "https://api.jeniya.cn/google"}
+    client_options={"api_endpoint": "https://api.quanzil.com/google"}
 )
 
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -271,7 +271,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI("你的令牌");
 const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
-  baseUrl: "https://api.jeniya.cn/google"
+  baseUrl: "https://api.quanzil.com/google"
 });
 
 const result = await model.generateContent('写一个快速排序');
@@ -280,7 +280,7 @@ console.log(result.response.text());
 
 ### GPT 系列
 
-**接入地址：** `https://api.jeniya.cn/openai/v1`
+**接入地址：** `https://api.quanzil.com/openai/v1`
 
 **支持模型：**
 
@@ -296,7 +296,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="你的令牌",
-    base_url="https://api.jeniya.cn/openai/v1"
+    base_url="https://api.quanzil.com/openai/v1"
 )
 
 response = client.chat.completions.create(
@@ -329,7 +329,7 @@ npm install -g @anthropic-ai/claude-code
 {
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "你的令牌",
-    "ANTHROPIC_BASE_URL": "https://api.jeniya.cn/v1"
+    "ANTHROPIC_BASE_URL": "https://api.quanzil.com/v1"
   }
 }
 ```
@@ -356,14 +356,14 @@ claude-code
       "provider": "anthropic",
       "model": "claude-sonnet-4.5",
       "apiKey": "你的令牌",
-      "apiBase": "https://api.jeniya.cn/v1"
+      "apiBase": "https://api.quanzil.com/v1"
     },
     {
       "title": "Gemini Flash",
       "provider": "gemini",
       "model": "gemini-2.5-flash",
       "apiKey": "你的令牌",
-      "apiBase": "https://api.jeniya.cn/google/v1"
+      "apiBase": "https://api.quanzil.com/google/v1"
     }
   ],
   "tabAutocompleteModel": {
@@ -371,7 +371,7 @@ claude-code
     "provider": "gemini",
     "model": "gemini-2.5-flash-8b",
     "apiKey": "你的令牌",
-    "apiBase": "https://api.jeniya.cn/google/v1"
+    "apiBase": "https://api.quanzil.com/google/v1"
   }
 }
 ```
@@ -386,19 +386,19 @@ claude-code
 # Claude 配置
 model: anthropic/claude-sonnet-4.5
 api-key: 你的令牌
-api-base: https://api.jeniya.cn/v1
+api-base: https://api.quanzil.com/v1
 
 # 或 Gemini 配置
 # model: gemini/gemini-2.5-flash
 # api-key: 你的令牌
-# api-base: https://api.jeniya.cn/google/v1
+# api-base: https://api.quanzil.com/google/v1
 ```
 
 ### Cursor 集成
 
 在 Cursor 设置中添加自定义模型：
 - Models → Add Model
-- 填写 jeniya.cn API 配置信息
+- 填写 quanzil.com API 配置信息
 
 ---
 
@@ -413,7 +413,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     api_key="你的令牌",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 # 流式输出
@@ -434,7 +434,7 @@ import google.generativeai as genai
 genai.configure(
     api_key="你的令牌",
     transport="rest",
-    client_options={"api_endpoint": "https://api.jeniya.cn/google"}
+    client_options={"api_endpoint": "https://api.quanzil.com/google"}
 )
 
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -454,7 +454,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
   apiKey: '你的令牌',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 # 流式输出
@@ -479,7 +479,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI("你的令牌");
 const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
-  baseUrl: "https://api.jeniya.cn/google"
+  baseUrl: "https://api.quanzil.com/google"
 });
 
 # 流式输出
@@ -494,7 +494,7 @@ for await (const chunk of result.stream) {
 **Claude API：**
 
 ```bash
-curl https://api.jeniya.cn/v1/messages \
+curl https://api.quanzil.com/v1/messages \
   -H "Content-Type: application/json" \
   -H "x-api-key: 你的令牌" \
   -H "anthropic-version: 2023-06-01" \
@@ -504,7 +504,7 @@ curl https://api.jeniya.cn/v1/messages \
 **Gemini API：**
 
 ```bash
-curl https://api.jeniya.cn/google/v1/models/gemini-2.5-flash:generateContent \
+curl https://api.quanzil.com/google/v1/models/gemini-2.5-flash:generateContent \
   -H "Content-Type: application/json" \
   -H "x-api-key: 你的令牌" \
   -d '{"contents": [{"parts": [{"text": "你好"}]}]}'
@@ -634,7 +634,7 @@ def safe_call(prompt, max_retries=3):
     """带重试的安全调用"""
     client = anthropic.Anthropic(
         api_key="你的令牌",
-        base_url="https://api.jeniya.cn/v1"
+        base_url="https://api.quanzil.com/v1"
     )
     
     for attempt in range(max_retries):
@@ -690,9 +690,9 @@ def call_with_logging(prompt):
 ### 获取帮助
 
 **文档：**
-- 用户指南：https://jeniya.cn/docs
-- API 文档：https://jeniya.cn/api-docs
-- 常见问题：https://jeniya.cn/faq
+- 用户指南：https://quanzil.com/docs
+- API 文档：https://quanzil.com/api-docs
+- 常见问题：https://quanzil.com/faq
 
 **社区：**
 - 用户交流群：见网站底部
@@ -706,7 +706,7 @@ def call_with_logging(prompt):
 
 ---
 
-**感谢使用 jeniya.cn！**  
+**感谢使用 quanzil.com！**  
 如有任何问题，欢迎随时联系我们。祝您使用愉快！
 
 ---

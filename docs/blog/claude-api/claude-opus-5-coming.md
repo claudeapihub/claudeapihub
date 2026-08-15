@@ -203,7 +203,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 # 调用 Opus 5

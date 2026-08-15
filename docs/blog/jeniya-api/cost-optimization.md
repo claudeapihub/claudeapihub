@@ -1,18 +1,18 @@
----
-title: jeniya.cn 成本优化指南
+﻿---
+title: quanzil.com 成本优化指南
 slug: /blog/jeniya-api/cost-optimization.html
-description: jeniya.cn API 成本优化完整指南，帮助你更经济地使用服务。
+description: quanzil.com API 成本优化完整指南，帮助你更经济地使用服务。
 keywords:
-  - jeniya.cn 成本优化
+  - quanzil.com 成本优化
   - API 成本控制
   - 降低调用成本
   - 模型选择策略
   - 优化提示词
 ---
 
-# jeniya.cn 成本优化指南
+# quanzil.com 成本优化指南
 
-本文介绍如何优化 jeniya.cn API 的使用成本。
+本文介绍如何优化 quanzil.com API 的使用成本。
 
 ## 费用计算方式
 
@@ -275,7 +275,7 @@ import requests
 
 def check_budget_status():
     """检查预算状态"""
-    # 获取实际使用量 (需要集成 jeniya.cn 的余额查询 API)
+    # 获取实际使用量 (需要集成 quanzil.com 的余额查询 API)
     usage = get_current_usage()  # 这里需要根据实际 API 调整
     
     if usage > 100:  # 超过 ¥100
@@ -350,7 +350,7 @@ def estimate_cost(input_tokens, output_tokens, model):
 ---
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

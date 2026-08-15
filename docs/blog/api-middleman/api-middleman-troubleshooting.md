@@ -64,7 +64,7 @@ from openai import OpenAI
 # 方案1：增加超时时间
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://api.jeniya.cn/v1",
+    base_url="https://api.quanzil.com/v1",
     timeout=httpx.Timeout(60.0, connect=10.0)  # 总超时60秒，连接超时10秒
 )
 
@@ -103,7 +103,7 @@ Error: connect ECONNREFUSED
 
 ```bash
 # 测试连接是否正常
-curl -v https://api.jeniya.cn/v1/models \
+curl -v https://api.quanzil.com/v1/models \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
@@ -144,7 +144,7 @@ import os
 # 推荐：使用环境变量存储 API Key
 client = OpenAI(
     api_key=os.environ.get("API_KEY"),  # 从环境变量读取
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 # 验证 API Key 格式
@@ -226,7 +226,7 @@ from openai import OpenAI, RateLimitError
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 def call_with_rate_limit(prompt, max_retries=3):
@@ -701,7 +701,7 @@ class APIMonitor:
 
 - **平台客服**：通过官网客服入口
 - **用户交流群**：见平台官网
-- **技术文档**：https://jeniya.cn/docs
+- **技术文档**：https://quanzil.com/docs
 
 ---
 

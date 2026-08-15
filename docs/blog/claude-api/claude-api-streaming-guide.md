@@ -124,7 +124,7 @@ def stream_chat_openai(prompt: str):
     """使用 OpenAI SDK 格式的流式输出"""
     client = OpenAI(
         api_key="YOUR_API_KEY",
-        base_url="https://jeniya.cn/v1"
+        base_url="https://quanzil.com/v1"
     )
     
     stream = client.chat.completions.create(

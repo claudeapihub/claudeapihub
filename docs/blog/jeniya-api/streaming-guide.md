@@ -1,16 +1,16 @@
----
-title: jeniya.cn 流式输出完整指南
+﻿---
+title: quanzil.com 流式输出完整指南
 slug: /blog/jeniya-api/streaming-guide.html
-description: jeniya.cn API 流式输出完整指南，提升用户体验的实时响应方案。
+description: quanzil.com API 流式输出完整指南，提升用户体验的实时响应方案。
 keywords:
-  - jeniya.cn 流式输出
+  - quanzil.com 流式输出
   - 流式输出教程
   - 实时响应方案
   - Python 流式
   - Node.js 流式
 ---
 
-# jeniya.cn 流式输出完整指南
+# quanzil.com 流式输出完整指南
 
 流式输出（Streaming）可以让你在生成结果时实时显示，而不是等待全部生成完成后再显示。这对于提升用户体验非常重要。
 
@@ -36,7 +36,7 @@ import anthropic
 
 client = anthropic.Anthropic(
     api_key="your_api_key",
-    base_url="https://api.jeniya.cn/v1"
+    base_url="https://api.quanzil.com/v1"
 )
 
 # 使用 stream 方法
@@ -59,7 +59,7 @@ import google.generativeai as genai
 genai.configure(
     api_key="your_api_key",
     transport="rest",
-    client_options={"api_endpoint": "https://api.jeniya.cn/google"}
+    client_options={"api_endpoint": "https://api.quanzil.com/google"}
 )
 
 model = genai.GenerativeModel('gemini-2.5-flash')
@@ -80,7 +80,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 const stream = await client.messages.stream({
@@ -104,7 +104,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI("your_api_key");
 const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
-  baseUrl: "https://api.jeniya.cn/google"
+  baseUrl: "https://api.quanzil.com/google"
 });
 
 const result = await model.generateContentStream('写一个快速排序算法');
@@ -119,7 +119,7 @@ for await (const chunk of result.stream) {
 
 ```bash
 # Claude API
-curl https://api.jeniya.cn/v1/messages \
+curl https://api.quanzil.com/v1/messages \
   -H "Content-Type: application/json" \
   -H "x-api-key: your_api_key" \
   -H "anthropic-version: 2023-06-01" \
@@ -140,7 +140,7 @@ curl https://api.jeniya.cn/v1/messages \
 
 ```javascript
 async function streamClaudeMessage(prompt) {
-  const response = await fetch('https://api.jeniya.cn/v1/messages', {
+  const response = await fetch('https://api.quanzil.com/v1/messages', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -218,7 +218,7 @@ async function streamClaudeMessage(prompt) {
       const outputDiv = document.getElementById('output');
       outputDiv.textContent = '生成中...';
       
-      const response = await fetch('https://api.jeniya.cn/v1/messages', {
+      const response = await fetch('https://api.quanzil.com/v1/messages', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -395,7 +395,7 @@ for text in stream_generator(stream):
 **国内最推荐 Claude API 中转站平台**：
 > Claude API 中转站 平台地址：<https://quanzil.com>
 
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

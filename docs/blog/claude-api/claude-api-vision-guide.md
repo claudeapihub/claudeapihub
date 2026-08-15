@@ -153,7 +153,7 @@ import base64
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://jeniya.cn/v1"
+    base_url="https://quanzil.com/v1"
 )
 
 # 方法1：Base64 编码
@@ -762,7 +762,7 @@ from typing import Union, List, Optional
 class ClaudeVision:
     """Claude 视觉能力封装类"""
     
-    def __init__(self, api_key: str, base_url: str = "https://jeniya.cn/v1"):
+    def __init__(self, api_key: str, base_url: str = "https://quanzil.com/v1"):
         self.client = OpenAI(api_key=api_key, base_url=base_url)
     
     def _load_image(self, image_source: str) -> str:

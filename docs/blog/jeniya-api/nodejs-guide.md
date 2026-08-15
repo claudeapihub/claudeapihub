@@ -1,18 +1,18 @@
----
-title: jeniya.cn Node.js 接入教程
+﻿---
+title: quanzil.com Node.js 接入教程
 slug: /blog/jeniya-api/nodejs-guide.html
-description: Node.js 开发者使用 jeniya.cn API 的完整指南，包括 Claude、Gemini、GPT 的接入示例。
+description: Node.js 开发者使用 quanzil.com API 的完整指南，包括 Claude、Gemini、GPT 的接入示例。
 keywords:
-  - jeniya.cn Node.js 接入
+  - quanzil.com Node.js 接入
   - Claude API Node.js
   - Gemini API Node.js
   - GPT API Node.js
   - API 接入示例
 ---
 
-# jeniya.cn Node.js 接入教程
+# quanzil.com Node.js 接入教程
 
-本教程介绍如何在 Node.js 项目中使用 jeniya.cn API。
+本教程介绍如何在 Node.js 项目中使用 quanzil.com API。
 
 ## 安装依赖
 
@@ -36,7 +36,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 const message = await client.messages.create({
@@ -55,7 +55,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 const stream = await client.messages.stream({
@@ -79,7 +79,7 @@ import { setTimeout } from 'timers/promises';
 
 const client = new Anthropic({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/v1'
+  baseURL: 'https://api.quanzil.com/v1'
 });
 
 async function safeCall(prompt, maxRetries = 3) {
@@ -119,7 +119,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI("your_api_key");
 const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
-  baseUrl: "https://api.jeniya.cn/google"
+  baseUrl: "https://api.quanzil.com/google"
 });
 
 const result = await model.generateContent('写一个快速排序算法');
@@ -134,7 +134,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI("your_api_key");
 const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
-  baseUrl: "https://api.jeniya.cn/google"
+  baseUrl: "https://api.quanzil.com/google"
 });
 
 const result = await model.generateContentStream('写一个快速排序算法');
@@ -152,7 +152,7 @@ import OpenAI from 'openai';
 
 const client = new OpenAI({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/openai/v1'
+  baseURL: 'https://api.quanzil.com/openai/v1'
 });
 
 const response = await client.chat.completions.create({
@@ -170,7 +170,7 @@ import OpenAI from 'openai';
 
 const client = new OpenAI({
   apiKey: 'your_api_key',
-  baseURL: 'https://api.jeniya.cn/openai/v1'
+  baseURL: 'https://api.quanzil.com/openai/v1'
 });
 
 const stream = await client.chat.completions.create({
@@ -200,7 +200,7 @@ npm install -g @anthropic-ai/claude-code
 {
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "your_api_key",
-    "ANTHROPIC_BASE_URL": "https://api.jeniya.cn/v1"
+    "ANTHROPIC_BASE_URL": "https://api.quanzil.com/v1"
   }
 }
 ```
@@ -217,14 +217,14 @@ npm install -g @anthropic-ai/claude-code
       "provider": "anthropic",
       "model": "claude-sonnet-4.5",
       "apiKey": "your_api_key",
-      "apiBase": "https://api.jeniya.cn/v1"
+      "apiBase": "https://api.quanzil.com/v1"
     },
     {
       "title": "Gemini Flash (jeniya)",
       "provider": "gemini",
       "model": "gemini-2.5-flash",
       "apiKey": "your_api_key",
-      "apiBase": "https://api.jeniya.cn/google/v1"
+      "apiBase": "https://api.quanzil.com/google/v1"
     }
   ]
 }
@@ -234,12 +234,12 @@ npm install -g @anthropic-ai/claude-code
 
 在 Cursor 设置中添加自定义模型：
 - Models → Add Model
-- 填写 jeniya.cn API 配置信息
+- 填写 quanzil.com API 配置信息
 
 ## 常见问题
 
 **Q: 如何获取 API Key？**  
-A: 登录 jeniya.cn → 令牌管理 → 创建令牌
+A: 登录 quanzil.com → 令牌管理 → 创建令牌
 
 **Q: 为什么请求失败？**  
 A: 检查：1. 令牌是否正确 2. 余额是否充足 3. 请求格式是否正确
@@ -256,7 +256,7 @@ A: 使用特惠分组、选择更便宜的模型（如 Haiku/Flash）、优化�
 ---
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

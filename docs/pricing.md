@@ -7,8 +7,8 @@ description: 查看大模型 API 价格说明，包括 GPT、Claude、Gemini 等
 
 本平台提供多种大模型 API 接入，采用按 Token 计费方式，不同模型价格不同。
 
-> 🚀 大模型 API 平台地址：<https://jeniya.cn>  
-> 💰 API 详细价格：<https://jeniya.cn/pricing>
+> 🚀 大模型 API 平台地址：<https://quanzil.com>  
+> 💰 API 详细价格：<https://quanzil.com/pricing>
 
 ---
 
@@ -327,7 +327,7 @@ tracker.track(response.usage)
 
 <div class="action-buttons">
 
-[前往大模型 API 平台](https://jeniya.cn){.brand}
+[前往大模型 API 平台](https://quanzil.com){.brand}
 
 [查看模型列表](/models.html){.alt}
 

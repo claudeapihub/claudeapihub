@@ -216,7 +216,7 @@ export OPENAI_API_KEY="YOUR_API_KEY"
 如果你使用统一兼容格式，请求地址通常类似：
 
 ```bash
-https://jeniya.cn/v1/chat/completions
+https://quanzil.com/v1/chat/completions
 ```
 
 ---
@@ -245,7 +245,7 @@ https://jeniya.cn/v1/chat/completions
 ```python
 import requests
 
-url = "https://jeniya.cn/v1/chat/completions"
+url = "https://quanzil.com/v1/chat/completions"
 api_key = "YOUR_API_KEY"
 
 payload = {

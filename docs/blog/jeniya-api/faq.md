@@ -1,18 +1,18 @@
----
-title: jeniya.cn 常见问题
+﻿---
+title: quanzil.com 常见问题
 slug: /blog/jeniya-api/faq.html
-description: jeniya.cn API 使用中的常见问题解答，涵盖账号、令牌、使用、成本等方面。
+description: quanzil.com API 使用中的常见问题解答，涵盖账号、令牌、使用、成本等方面。
 keywords:
-  - jeniya.cn 常见问题
+  - quanzil.com 常见问题
   - API 问题解答
   - 账号问题
   - 令牌问题
   - 成本问题
 ---
 
-# jeniya.cn 常见问题
+# quanzil.com 常见问题
 
-本文收集了 jeniya.cn API 使用中的常见问题。
+本文收集了 quanzil.com API 使用中的常见问题。
 
 ## 账号相关
 
@@ -90,7 +90,7 @@ keywords:
 
 4. **网络问题**
    - 检查网络连接
-   - 确认可以访问 jeniya.cn
+   - 确认可以访问 quanzil.com
 
 建议：查看控制台的"调用记录"，可以获取详细的错误信息。
 
@@ -199,7 +199,7 @@ keywords:
 ### 有 API 文档吗？
 
 有。详见：
-- 在线文档：https://jeniya.cn/api-docs
+- 在线文档：https://quanzil.com/api-docs
 - OpenAPI Spec：可在文档页面下载
 
 ## 集成相关
@@ -214,7 +214,7 @@ keywords:
 ### 如何集成到 Continue 插件？
 
 1. 编辑 `~/.continue/config.json`
-2. 添加 jeniya.cn 作为自定义模型
+2. 添加 quanzil.com 作为自定义模型
 3. 配置 API Key 和地址
 4. 重启 VSCode
 
@@ -228,7 +228,7 @@ keywords:
 
 1. 打开 Cursor 设置
 2. Models → Add Model
-3. 填写 jeniya.cn 配置信息
+3. 填写 quanzil.com 配置信息
 4. 保存设置
 
 ## 其他问题
@@ -253,7 +253,7 @@ keywords:
 
 ### 如何反馈问题？
 
-- 邮箱：support@jeniya.cn
+- 邮箱：support@quanzil.com
 - 工单系统：控制台提交
 - 社区讨论：GitHub
 
@@ -267,7 +267,7 @@ keywords:
 ---
 
 **国内最推荐 Claude API 中转站平台**：
-> Claude API 中转站 平台地址：<https://jeniya.cn>
+> Claude API 中转站 平台地址：<https://quanzil.com>
 
 > Claude API 中转站 平台地址：<https://jeniya.top>
 

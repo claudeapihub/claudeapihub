@@ -26,7 +26,7 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '大模型 API 中转站', link: 'https://jeniya.cn' },
+      { text: '大模型 API 中转站', link: 'https://quanzil.com' },
       { text: '大模型 API 教程', link: '/blog/claude-api/' },
       { text: 'API 中转站接入指南', link: '/blog/jeniya-api/' },
       { text: 'API 中转专题', link: '/blog/api-middleman/' },
@@ -69,10 +69,10 @@ export default defineConfig({
       ],
       '/blog/jeniya-api/': [
         {
-          text: '🚀 jeniya.cn API 中转服务',
+          text: '🚀 quanzil.com API 中转服务',
           collapsed: false,
           items: [
-            { text: 'jeniya.cn API 完整指南', link: '/blog/jeniya-api/' },
+            { text: 'quanzil.com API 完整指南', link: '/blog/jeniya-api/' },
             { text: '快速开始指南', link: '/blog/jeniya-api/quick-start' },
             { text: 'Python 接入教程', link: '/blog/jeniya-api/python-guide' },
             { text: 'Node.js 接入教程', link: '/blog/jeniya-api/nodejs-guide' },

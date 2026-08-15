@@ -202,7 +202,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),  # 或你的中转站 Key
-    base_url="https://jeniya.cn/v1"  # 中转站地址
+    base_url="https://quanzil.com/v1"  # 中转站地址
 )
 
 response = client.chat.completions.create(
@@ -479,7 +479,7 @@ def stream_chat_openai(prompt: str):
     """OpenAI SDK 格式的流式输出"""
     client = OpenAI(
         api_key=os.getenv("OPENAI_API_KEY"),
-        base_url="https://jeniya.cn/v1"
+        base_url="https://quanzil.com/v1"
     )
     
     print("Claude: ", end="", flush=True)
