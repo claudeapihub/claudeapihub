@@ -28,7 +28,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '大模型 API 中转站', link: 'https://quanzil.com' },
       { text: '大模型 API 教程', link: '/blog/claude-api/' },
-      { text: 'API 中转站接入指南', link: '/blog/jeniya-api/' },
+      { text: 'quanzil.com 中转站接入指南', link: '/blog/jeniya-api/' },
       { text: 'API 中转专题', link: '/blog/api-middleman/' },
       { text: '免责申明', link: '/disclaimer' }
     ],
