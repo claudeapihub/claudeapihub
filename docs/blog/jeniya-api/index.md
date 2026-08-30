@@ -14,14 +14,18 @@ quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、
 <div class="latest-articles">
 
 <div class="article-card featured">
-<a href="/blog/jeniya-api/claude-4-8-opus-guide" class="article-title">国内如何稳定直连调用 Claude Opus 4.8 API 完整指南</a>
+<a href="/blog/jeniya-api/claude-vs-gpt-guide" class="article-title">Claude vs GPT 全面对比：如何根据场景选择最佳 AI 模型</a>
 <span class="article-badge">🔥 NEW</span>
+<p class="article-desc">深度对比 Claude 和 GPT 系列模型，从代码能力、价格、适用场景等多维度分析</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/jeniya-api/claude-4-8-opus-guide" class="article-title">国内如何稳定直连调用 Claude Opus 4.8 API 完整指南</a>
 <p class="article-desc">Claude Opus 4.8 带来 1M 上下文、自适应思考等重磅新特性，国内直连方案详解</p>
 </div>
 
 <div class="article-card">
 <a href="/blog/jeniya-api/quick-start" class="article-title">快速开始指南：3步完成接入，30秒开始使用</a>
-<span class="article-badge">NEW</span>
 <p class="article-desc">从注册、充值到测试调用，手把手教你快速上手 quanzil.com</p>
 </div>
 
@@ -33,11 +37,6 @@ quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、
 <div class="article-card">
 <a href="/blog/jeniya-api/nodejs-guide" class="article-title">Node.js 接入教程：实战代码与最佳实践</a>
 <p class="article-desc">使用 Node.js SDK 完整接入 quanzil.com，包含常见集成场景</p>
-</div>
-
-<div class="article-card">
-<a href="/blog/jeniya-api/models" class="article-title">支持模型列表：Claude / GPT / Gemini 全覆盖</a>
-<p class="article-desc">详细说明 quanzil.com 支持的所有模型，包括模型 ID 和接入方式</p>
 </div>
 
 </div>
