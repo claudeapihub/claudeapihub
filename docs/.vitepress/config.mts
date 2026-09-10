@@ -73,6 +73,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'quanzil.com API 完整指南', link: '/blog/jeniya-api/' },
+            { text: 'Cursor IDE 配置 Claude API 完整指南 - 国内直连方案', link: '/blog/jeniya-api/cursor-claude-api' },
             { text: '快速开始指南', link: '/blog/jeniya-api/quick-start' },
             { text: 'Python 接入教程', link: '/blog/jeniya-api/python-guide' },
             { text: 'Node.js 接入教程', link: '/blog/jeniya-api/nodejs-guide' },

@@ -1,6 +1,6 @@
 ﻿---
 title: 国内安装 Claude Code 并切换使用国内大模型 API 完整指南
-slug: /blog/jeniya-api/claude-code-install.md
+slug: /blog/jeniya-api/claude-code-install.html
 description: 详细教程教你如何在国内安装 Claude Code，并配置使用 quanzil.com 提供的国内大模型 API，告别网络问题和高昂费用。
 ---
 
