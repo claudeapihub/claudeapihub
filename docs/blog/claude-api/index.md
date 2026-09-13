@@ -14,14 +14,18 @@ description: 大模型 API 完整教程，包括接口使用方式、接入流�
 <div class="latest-articles">
 
 <div class="article-card featured">
-<a href="/blog/claude-api/claude-opus-5-coming" class="article-title">Claude Opus 5 要来了吗？发布解读与选型建议</a>
+<a href="/blog/claude-api/ai-agent-workflow-reusability" class="article-title">AI Agent 工作流要从"会执行"走向"可复用"</a>
 <span class="article-badge">🔥 NEW</span>
+<p class="article-desc">深入探讨 AI Agent 工作流的复用性设计，从基础执行能力到可复用工作流的演进路径</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/claude-api/claude-opus-5-coming" class="article-title">Claude Opus 5 要来了吗？发布解读与选型建议</a>
 <p class="article-desc">Claude Opus 5 已发布！Frontier-Bench 创 43.3% 新 SOTA，价格仅为 Fable 5 的一半</p>
 </div>
 
 <div class="article-card">
 <a href="/blog/claude-api/claude-api-python-complete-guide" class="article-title">Claude API Python 入门教程：从安装到流式输出，保姆级完整指南</a>
-<span class="article-badge">NEW</span>
 <p class="article-desc">零基础完整教程，从环境安装、第一次调用到流式输出，手把手教你接入 Claude API</p>
 </div>
 
@@ -33,11 +37,6 @@ description: 大模型 API 完整教程，包括接口使用方式、接入流�
 <div class="article-card">
 <a href="/blog/claude-api/claude-api-china-guide" class="article-title">Claude API 国内怎么用？申请、接入与中转方案完整教程</a>
 <p class="article-desc">针对国内开发者的完整接入方案，解决访问、鉴权、稳定性问题</p>
-</div>
-
-<div class="article-card">
-<a href="/blog/claude-api/claude-models-comparison" class="article-title">Claude 模型版本对比：Haiku vs Sonnet vs Opus 如何选择</a>
-<p class="article-desc">详细对比三个系列模型的能力、价格、适用场景，帮你做出最优选择</p>
 </div>
 
 </div>

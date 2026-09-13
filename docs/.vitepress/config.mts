@@ -52,7 +52,8 @@ export default defineConfig({
             { text: 'Claude API 提示词工程实战：从入门到精通的优化技巧', link: '/blog/claude-api/claude-api-prompt-engineering' },
             { text: 'Claude API 工具使用实战：函数调用与外部工具集成', link: '/blog/claude-api/claude-api-tool-use' },
             { text: 'Claude API 视觉能力实战：图像理解与分析完整指南', link: '/blog/claude-api/claude-api-vision-guide' },
-            { text: 'Claude Opus 5 要来了吗？发布解读与选型建议', link: '/blog/claude-api/claude-opus-5-coming.html' }
+            { text: 'Claude Opus 5 要来了吗？发布解读与选型建议', link: '/blog/claude-api/claude-opus-5-coming.html' },
+            { text: 'AI Agent 工作流要从"会执行"走向"可复用"', link: '/blog/claude-api/ai-agent-workflow-reusability' }
             
           ]
         },
