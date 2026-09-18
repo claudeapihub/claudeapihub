@@ -1,6 +1,14 @@
 ﻿---
 title: quanzil.com API 中转服务完整指南
 description: quanzil.com 是专业的 AI API 中转服务平台，本指南将帮助您快速上手，从注册到使用，涵盖所有常见场景和问题。
+keywords:
+  - quanzil.com
+  - API 中转服务
+  - Claude API
+  - GPT API
+  - Gemini API
+  - 国内直连
+  - 快速开始
 ---
 
 # quanzil.com API 中转服务完整指南

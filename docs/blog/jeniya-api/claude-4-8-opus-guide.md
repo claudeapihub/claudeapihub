@@ -2,6 +2,13 @@
 title: 国内如何稳定直连调用 Claude Opus 4.8 API 完整指南
 slug: /blog/jeniya-api/claude-4-8-opus-guide.html
 description: 详细介绍 Claude Opus 4.8 的新特性、国内访问挑战，以及如何通过 jeniya.net 稳定直连调用 Opus 4.8 接口，告别网络不稳定和高昂费用。
+keywords:
+  - Claude Opus 4.8
+  - Claude API 国内
+  - 1M 上下文
+  - 自适应思考
+  - 国内直连
+  - jeniya.net
 ---
 
 # 国内如何稳定直连调用 Claude Opus 4.8 API 完整指南

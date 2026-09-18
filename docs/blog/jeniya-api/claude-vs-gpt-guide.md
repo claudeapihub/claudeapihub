@@ -2,6 +2,13 @@
 title: Claude API vs GPT API 选型指南：2026 年到底该选哪个？
 slug: /blog/jeniya-api/claude-vs-gpt-guide.html
 description: 详细对比 Claude API 和 GPT API 的价格、能力、适用场景，帮助开发者做出最佳选择，附国内使用方案。
+keywords:
+  - Claude vs GPT
+  - API 选型
+  - 价格对比
+  - 能力对比
+  - 模型选择
+  - 国内访问
 ---
 
 # Claude API vs GPT API 选型指南：2026 年到底该选哪个？

@@ -1,6 +1,13 @@
 ---
 title: 大模型 API 价格说明
 description: 查看大模型 API 价格说明，包括 GPT、Claude、Gemini 等模型的定价、计费方式和成本优化建议。
+keywords:
+  - 大模型 API 价格
+  - API 计费
+  - Token 计费
+  - 成本优化
+  - Claude 价格
+  - GPT 价格
 ---
 
 # 大模型 API 价格说明

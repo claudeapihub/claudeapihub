@@ -1,6 +1,13 @@
 ---
 title: 大模型 API 教程
 description: 大模型 API 完整教程，包括接口使用方式、接入流程、模型选择、常见问题与经验总结。
+keywords:
+  - 大模型 API 教程
+  - Claude API 教程
+  - GPT API 教程
+  - API 接入
+  - 模型选择
+  - Python 接入
 ---
 
 # 大模型 API 教程

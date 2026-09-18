@@ -2,6 +2,13 @@
 title: VS Code Cline 插件配置 Claude API 完整指南 - 国内直连
 slug: /blog/jeniya-api/cline-config-guide.html
 description: 详细介绍如何在 VS Code 中安装配置 Cline 插件，并连接 jeniya.net 提供的 Claude API，实现国内稳定直连。
+keywords:
+  - VS Code Cline
+  - Cline 配置
+  - Claude API
+  - 国内直连
+  - AI 编程插件
+  - jeniya.net
 ---
 
 # VS Code Cline 插件配置 Claude API 完整指南 - 国内直连

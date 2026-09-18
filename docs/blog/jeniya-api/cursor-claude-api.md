@@ -2,6 +2,13 @@
 title: Cursor IDE 配置 Claude API 完整指南 - 国内直连方案
 slug: /blog/jeniya-api/cursor-claude-api.html
 description: 详细介绍如何在 Cursor IDE 中配置 Claude API，通过 quanzil.com 实现国内直连，告别网络问题，享受超低价格。
+keywords:
+  - Cursor IDE
+  - Claude API 配置
+  - 国内直连
+  - quanzil.com
+  - AI 编程
+  - 模型切换
 ---
 
 # Cursor IDE 配置 Claude API 完整指南 - 国内直连方案

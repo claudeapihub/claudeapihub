@@ -1,4 +1,16 @@
-﻿# quanzil.com API 中转服务文档
+﻿---
+title: quanzil.com API 中转服务文档
+description: quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
+keywords:
+  - quanzil.com
+  - API 中转服务
+  - 文档导航
+  - 快速开始
+  - Python 接入
+  - Node.js 接入
+---
+
+# quanzil.com API 中转服务文档
 
 quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、高效、经济的 AI 模型访问方案。
 

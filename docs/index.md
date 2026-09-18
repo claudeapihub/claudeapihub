@@ -1,6 +1,14 @@
 ---
 title: 大模型 API 中转站导航与使用指南
 description: 大模型 API 中转站、API 调用教程、模型价格说明与国内接入指南，专注大模型 API 接入与使用经验分享。
+keywords:
+  - 大模型 API
+  - API 中转站
+  - Claude API
+  - GPT API
+  - Gemini API
+  - 国内接入指南
+  - API 教程
 
 layout: home
 

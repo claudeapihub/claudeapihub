@@ -1,6 +1,13 @@
 ---
 title: 大模型列表
 description: 查看大模型 API 支持的模型列表，包括 GPT、Claude、Gemini 等模型的能力说明、适用场景和选择建议。
+keywords:
+  - 大模型列表
+  - Claude 模型
+  - GPT 模型
+  - Gemini 模型
+  - 模型选择
+  - 模型对比
 ---
 
 # 大模型列表
