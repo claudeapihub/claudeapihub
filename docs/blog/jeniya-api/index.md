@@ -14,8 +14,13 @@ quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、
 <div class="latest-articles">
 
 <div class="article-card featured">
-<a href="/blog/jeniya-api/cursor-claude-api" class="article-title">Cursor IDE 配置 Claude API 完整指南 - 国内直连方案</a>
+<a href="/blog/jeniya-api/cline-config-guide" class="article-title">VS Code Cline 插件配置 Claude API 完整指南 - 国内直连</a>
 <span class="article-badge">🔥 NEW</span>
+<p class="article-desc">详细介绍如何在 VS Code 中安装配置 Cline 插件，并连接 Claude API，实现国内稳定直连</p>
+</div>
+
+<div class="article-card">
+<a href="/blog/jeniya-api/cursor-claude-api" class="article-title">Cursor IDE 配置 Claude API 完整指南 - 国内直连方案</a>
 <p class="article-desc">手把手教你如何在 Cursor IDE 中配置 quanzil.com API，实现国内直连无需代理</p>
 </div>
 
@@ -32,11 +37,6 @@ quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、
 <div class="article-card">
 <a href="/blog/jeniya-api/quick-start" class="article-title">快速开始指南：3步完成接入，30秒开始使用</a>
 <p class="article-desc">从注册、充值到测试调用，手把手教你快速上手 quanzil.com</p>
-</div>
-
-<div class="article-card">
-<a href="/blog/jeniya-api/python-guide" class="article-title">Python 接入教程：完整示例与流式输出</a>
-<p class="article-desc">使用 Python SDK 完整接入 quanzil.com，包含流式输出和错误处理</p>
 </div>
 
 </div>

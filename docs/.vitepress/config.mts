@@ -86,6 +86,7 @@ export default defineConfig({
             { text: '常见问题 FAQ', link: '/blog/jeniya-api/faq' },
             { text: '国内如何稳定直连调用 Claude Opus 4.8 API 完整指南', link: '/blog/jeniya-api/claude-4-8-opus-guide'},
             { text: '国内安装 Claude Code 并切换使用国内大模型 API 完整指南', link: '/blog/jeniya-api/claude-code-install' },
+            { text: 'VS Code Cline 插件配置 Claude API 完整指南 - 国内直连', link: '/blog/jeniya-api/cline-config-guide' },
             { text: 'Claude API vs GPT API 选型指南：2026 年到底该选哪个？', link: '/blog/jeniya-api/claude-vs-gpt-guide' },
           ]
         },
