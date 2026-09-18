@@ -28,6 +28,11 @@ quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、
 </div>
 
 <div class="article-card">
+<a href="/blog/jeniya-api/claude-code-csdn-article" class="article-title">Claude Code本地安装与自定义API接口配置完整指南</a>
+<p class="article-desc">详细记录Claude Code在Windows/macOS/Linux三平台的安装过程，以及如何配置自定义API端点解决国内访问问题</p>
+</div>
+
+<div class="article-card">
 <a href="/blog/jeniya-api/cursor-claude-api" class="article-title">Cursor IDE 配置 Claude API 完整指南 - 国内直连方案</a>
 <p class="article-desc">手把手教你如何在 Cursor IDE 中配置 quanzil.com API，实现国内直连无需代理</p>
 </div>
@@ -40,11 +45,6 @@ quanzil.com 是专业的 AI API 中转服务平台，为开发者提供稳定、
 <div class="article-card">
 <a href="/blog/jeniya-api/claude-4-8-opus-guide" class="article-title">国内如何稳定直连调用 Claude Opus 4.8 API 完整指南</a>
 <p class="article-desc">Claude Opus 4.8 带来 1M 上下文、自适应思考等重磅新特性，国内直连方案详解</p>
-</div>
-
-<div class="article-card">
-<a href="/blog/jeniya-api/quick-start" class="article-title">快速开始指南：3步完成接入，30秒开始使用</a>
-<p class="article-desc">从注册、充值到测试调用，手把手教你快速上手 quanzil.com</p>
 </div>
 
 </div>
